@@ -1,6 +1,6 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono, Noto_Serif_SC, Noto_Sans_SC } from 'next/font/google'
 import { ThemeProvider } from '@/components/theme-provider'
 import { LanguageProvider } from '@/components/language-provider'
 import { SiteHeader } from '@/components/site-header'
@@ -9,6 +9,18 @@ import './globals.css'
 
 const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
+const notoSerifSC = Noto_Serif_SC({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-noto-serif',
+  display: 'swap',
+})
+const notoSansSC = Noto_Sans_SC({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+  variable: '--font-noto-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: '陈墨 · UI/UX 设计作品集 | Chen Mo · Portfolio',
@@ -49,7 +61,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" suppressHydrationWarning className="bg-background">
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${notoSerifSC.variable} ${notoSansSC.variable} font-sans antialiased`}
+      >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <LanguageProvider>
             <div className="flex min-h-screen flex-col bg-background">
