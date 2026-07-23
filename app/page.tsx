@@ -1,75 +1,79 @@
 "use client"
 
-import { SiteHeader } from "@/components/site-header"
-import { ProjectGrid } from "@/components/project-grid"
+import Link from "next/link"
+import { ArrowRight } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
-import { ui } from "@/lib/content"
-import { Mail } from "lucide-react"
+import { ProjectGrid } from "@/components/project-grid"
+import { projects, ui } from "@/lib/content"
 
-export default function Page() {
+export default function HomePage() {
   const { t } = useLanguage()
-  const year = new Date().getFullYear()
+  const featured = projects.slice(0, 3)
 
   return (
-    <div id="top" className="min-h-screen bg-background">
-      <SiteHeader />
+    <main className="mx-auto max-w-6xl px-5 md:px-8">
+      {/* Hero */}
+      <section className="flex min-h-[62vh] flex-col justify-center py-20 md:min-h-[70vh] md:py-28">
+        <span className="text-sm font-medium uppercase tracking-[0.2em] text-muted-foreground">
+          {t(ui.heroEyebrow)}
+        </span>
+        <h1 className="mt-6 max-w-4xl text-balance text-4xl font-semibold leading-[1.1] tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
+          {t(ui.heroLine1)}
+          <br className="hidden sm:block" />
+          <span className="text-muted-foreground">{t(ui.heroLine2)}</span>
+        </h1>
 
-      <main className="mx-auto max-w-6xl px-5 md:px-8">
-        {/* Work */}
-        <section id="work" className="pt-16 md:pt-24">
-          <div className="max-w-2xl">
-            <h1 className="text-3xl font-semibold tracking-tight text-foreground text-balance md:text-4xl">
-              {t(ui.sectionWork)}
-            </h1>
-            <p className="mt-3 text-base leading-relaxed text-muted-foreground text-pretty">
-              {t(ui.sectionWorkDesc)}
-            </p>
-          </div>
-
-          <div className="mt-12 md:mt-16">
-            <ProjectGrid />
-          </div>
-        </section>
-
-        {/* About */}
-        <section id="about" className="border-t border-border py-16 md:py-24 mt-20 md:mt-28">
-          <div className="grid gap-6 md:grid-cols-[180px_1fr] md:gap-12">
-            <h2 className="text-sm font-medium text-muted-foreground">{t(ui.aboutTitle)}</h2>
-            <p className="max-w-2xl text-xl leading-relaxed text-foreground text-pretty md:text-2xl">
-              {t(ui.aboutText)}
-            </p>
-          </div>
-        </section>
-
-        {/* Contact */}
-        <section id="contact" className="border-t border-border py-16 md:py-24">
-          <div className="grid gap-6 md:grid-cols-[180px_1fr] md:gap-12">
-            <h2 className="text-sm font-medium text-muted-foreground">{t(ui.navContact)}</h2>
-            <div className="max-w-2xl">
-              <p className="text-xl leading-relaxed text-foreground text-pretty md:text-2xl">
-                {t(ui.contactTitle)}
-              </p>
-              <p className="mt-3 text-base leading-relaxed text-muted-foreground">{t(ui.contactText)}</p>
-              <a
-                href="mailto:hello@chenmo.design"
-                className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
-              >
-                <Mail className="size-4" />
-                hello@chenmo.design
-              </a>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer className="border-t border-border">
-        <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-2 px-5 py-8 text-xs text-muted-foreground md:flex-row md:items-center md:px-8">
-          <span>
-            © {year} {t(ui.brandName)}. {t(ui.footer)}.
-          </span>
-          <span>Designed & Built with v0</span>
+        <div className="mt-10 flex flex-wrap items-center gap-3">
+          <Link
+            href="/work"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+          >
+            {t(ui.heroCtaWork)}
+            <ArrowRight className="size-4" />
+          </Link>
+          <Link
+            href="/about"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
+          >
+            {t(ui.heroCtaAbout)}
+          </Link>
         </div>
-      </footer>
-    </div>
+      </section>
+
+      {/* Featured */}
+      <section className="border-t border-border py-16 md:py-24">
+        <div className="flex items-end justify-between gap-4">
+          <div className="max-w-2xl">
+            <h2 className="text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
+              {t(ui.featuredTitle)}
+            </h2>
+            <p className="mt-2 text-base leading-relaxed text-muted-foreground text-pretty">
+              {t(ui.featuredDesc)}
+            </p>
+          </div>
+          <Link
+            href="/work"
+            className="hidden shrink-0 items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground sm:inline-flex"
+          >
+            {t(ui.viewAllWork)}
+            <ArrowRight className="size-4" />
+          </Link>
+        </div>
+
+        <div className="mt-10 md:mt-12">
+          <ProjectGrid items={featured} />
+        </div>
+
+        <div className="mt-10 sm:hidden">
+          <Link
+            href="/work"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-muted-foreground"
+          >
+            {t(ui.viewAllWork)}
+            <ArrowRight className="size-4" />
+          </Link>
+        </div>
+      </section>
+    </main>
   )
 }

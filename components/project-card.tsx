@@ -1,18 +1,18 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { ArrowUpRight } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import type { Project } from "@/lib/content"
 
-export function ProjectCard({ project, onOpen }: { project: Project; onOpen: () => void }) {
+export function ProjectCard({ project, priority = false }: { project: Project; priority?: boolean }) {
   const { t } = useLanguage()
 
   return (
-    <button
-      type="button"
-      onClick={onOpen}
-      className="group flex flex-col text-left focus:outline-none"
+    <Link
+      href={`/work/${project.id}`}
+      className="group flex flex-col rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
       aria-label={t(project.title)}
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-border/60 bg-secondary">
@@ -20,7 +20,8 @@ export function ProjectCard({ project, onOpen }: { project: Project; onOpen: () 
           src={project.image || "/placeholder.svg"}
           alt={t(project.title)}
           fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority={priority}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
         />
         <div className="absolute inset-0 bg-foreground/0 transition-colors duration-300 group-hover:bg-foreground/5" />
@@ -42,6 +43,6 @@ export function ProjectCard({ project, onOpen }: { project: Project; onOpen: () 
           {t(project.category)}
         </span>
       </div>
-    </button>
+    </Link>
   )
 }
