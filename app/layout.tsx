@@ -1,10 +1,17 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
+import { Geist, Geist_Mono } from 'next/font/google'
+import { ThemeProvider } from '@/components/theme-provider'
+import { LanguageProvider } from '@/components/language-provider'
 import './globals.css'
 
+const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
+const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
+
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: '陈墨 · UI/UX 设计作品集 | Chen Mo · Portfolio',
+  description:
+    '独立数字产品设计师的个人作品集，精选 9 个 UI/UX 项目，涵盖移动端、桌面端与多平台产品。A UI/UX designer portfolio featuring 9 selected projects.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -39,9 +46,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className="antialiased">
-        {children}
+    <html lang="zh-CN" suppressHydrationWarning className="bg-background">
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <LanguageProvider>
+            {children}
+          </LanguageProvider>
+        </ThemeProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

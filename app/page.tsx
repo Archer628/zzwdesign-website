@@ -1,47 +1,75 @@
+"use client"
+
+import { SiteHeader } from "@/components/site-header"
+import { ProjectGrid } from "@/components/project-grid"
+import { useLanguage } from "@/components/language-provider"
+import { ui } from "@/lib/content"
+import { Mail } from "lucide-react"
+
 export default function Page() {
+  const { t } = useLanguage()
+  const year = new Date().getFullYear()
+
   return (
-    <main
-      style={{
-        colorScheme: 'light dark',
-        position: 'relative',
-        display: 'flex',
-        minHeight: '100vh',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: 'light-dark(#fff, #000)',
-        color: 'light-dark(#000, #fff)',
-      }}
-    >
-      <svg
-        aria-hidden="true"
-        style={{ width: 80, height: 80 }}
-        width={80}
-        height={80}
-        fill="none"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        stroke="currentColor"
-        strokeWidth="0.5"
-      >
-        <path
-          d="M14.2 14.2H17V6.9375C17 4.76288 15.2371 3 13.0625 3H5.8V5.8M14.2 14.2V7.79063L7.79062 14.2H14.2ZM14.2 14.2V17H6.9375C4.76288 17 3 15.2371 3 13.0625V5.8H5.8M5.8 5.8V12.2313L12.2313 5.8H5.8Z"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <p
-        style={{
-          position: 'absolute',
-          left: '50%',
-          top: 'calc(50% + 56px)',
-          transform: 'translateX(-50%)',
-          whiteSpace: 'nowrap',
-          fontSize: '14px',
-          fontWeight: 500,
-          color: 'light-dark(#71717a, #a1a1aa)',
-        }}
-      >
-        Your v0 generation will show here.
-      </p>
-    </main>
+    <div id="top" className="min-h-screen bg-background">
+      <SiteHeader />
+
+      <main className="mx-auto max-w-6xl px-5 md:px-8">
+        {/* Work */}
+        <section id="work" className="pt-16 md:pt-24">
+          <div className="max-w-2xl">
+            <h1 className="text-3xl font-semibold tracking-tight text-foreground text-balance md:text-4xl">
+              {t(ui.sectionWork)}
+            </h1>
+            <p className="mt-3 text-base leading-relaxed text-muted-foreground text-pretty">
+              {t(ui.sectionWorkDesc)}
+            </p>
+          </div>
+
+          <div className="mt-12 md:mt-16">
+            <ProjectGrid />
+          </div>
+        </section>
+
+        {/* About */}
+        <section id="about" className="border-t border-border py-16 md:py-24 mt-20 md:mt-28">
+          <div className="grid gap-6 md:grid-cols-[180px_1fr] md:gap-12">
+            <h2 className="text-sm font-medium text-muted-foreground">{t(ui.aboutTitle)}</h2>
+            <p className="max-w-2xl text-xl leading-relaxed text-foreground text-pretty md:text-2xl">
+              {t(ui.aboutText)}
+            </p>
+          </div>
+        </section>
+
+        {/* Contact */}
+        <section id="contact" className="border-t border-border py-16 md:py-24">
+          <div className="grid gap-6 md:grid-cols-[180px_1fr] md:gap-12">
+            <h2 className="text-sm font-medium text-muted-foreground">{t(ui.navContact)}</h2>
+            <div className="max-w-2xl">
+              <p className="text-xl leading-relaxed text-foreground text-pretty md:text-2xl">
+                {t(ui.contactTitle)}
+              </p>
+              <p className="mt-3 text-base leading-relaxed text-muted-foreground">{t(ui.contactText)}</p>
+              <a
+                href="mailto:hello@chenmo.design"
+                className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              >
+                <Mail className="size-4" />
+                hello@chenmo.design
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="border-t border-border">
+        <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-2 px-5 py-8 text-xs text-muted-foreground md:flex-row md:items-center md:px-8">
+          <span>
+            © {year} {t(ui.brandName)}. {t(ui.footer)}.
+          </span>
+          <span>Designed & Built with v0</span>
+        </div>
+      </footer>
+    </div>
   )
 }
