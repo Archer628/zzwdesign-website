@@ -1,0 +1,262 @@
+[
+  {
+    "sourceKey": "/project-apricot-medical-assistant-system/",
+    "expectedHash": "d985d7e21ea8025b02d7deeae2f6cca4757054c68589f8e7dc47daa396d0ec77",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目背景\"},{\"type\":\"paragraph\",\"text\":\"借助醫療AI大模型，爲傳統的中醫問診流程賦予新的動力。\"},{\"type\":\"paragraph\",\"text\":\"杏智AI醫護端可於PC、平板或手機上運行，中醫師可於行動裝置壹站式完成看診流程，大幅減輕醫護文書負擔，讓醫師能全心專注望聞問切與辨證論治。\"},{\"type\":\"paragraph\",\"text\":\"醫師問診同時可慘考AI提示、建議與分析，幫助考量更周全、精準。\"},{\"type\":\"heading\",\"text\":\"问诊工作台：从接诊到药方\"},{\"type\":\"image\",\"text\":\"就診概覽頁面\",\"src\":\"/uploads/9586b438552f860afa27835bc92f45aa-1600.webp\",\"layout\":\"wide\",\"detail\":\"支持快速加號、查看編輯排隊信息、快速問診\"},{\"type\":\"image\",\"text\":\"問診頁面\",\"src\":\"/uploads/d7cdc6abfae3943cca6dc18ba4b8f757-1600.webp\",\"layout\":\"wide\",\"detail\":\"支持語音對話問診、查看預診信息、AI分析舌象&皮膚照片、問診建議等。\"},{\"type\":\"image\",\"text\":\"問診頁面\",\"src\":\"/uploads/426d6a72880c3aeecea42b96be9c44fe-1600.webp\",\"layout\":\"wide\",\"detail\":\"AI輔助分析病理，提供問詢建議，自動記錄語音對話，讓醫師專注於病人。\"},{\"type\":\"image\",\"text\":\"診斷病歷頁面\",\"src\":\"/uploads/4b2c985a25a86bfd19ccd3dd68d60732-1600.webp\",\"layout\":\"wide\",\"detail\":\"問診結束后，AI生成診斷病歷，可編輯&生成藥方。\"},{\"type\":\"image\",\"text\":\"藥方頁面\",\"src\":\"/uploads/73b35173778ccc9bd9971adad5eec292-1600.webp\",\"layout\":\"wide\",\"detail\":\"依據診斷病歷快速生成藥方，支持藥方編輯、合併、保存入藥方庫。\"},{\"type\":\"heading\",\"text\":\"预约与预诊：接诊前的信息准备\"},{\"type\":\"image\",\"text\":\"預約列表頁面\",\"src\":\"/uploads/e6e8615ff4e79999abb52ec0636ee5c9-1600.webp\",\"layout\":\"wide\",\"detail\":\"可查看編輯預約信息，操作預約申請。\"},{\"type\":\"image\",\"text\":\"預約列表頁面\",\"src\":\"/uploads/6411969b17af3cfc7711128d62087f7b-1600.webp\",\"layout\":\"wide\",\"detail\":\"列表模式\"},{\"type\":\"image\",\"text\":\"預約申請頁面\",\"src\":\"/uploads/f27851db5f46074f41c0a65d475e9858-1600.webp\",\"layout\":\"wide\",\"detail\":\"預約信息處理，預約信息查詢\"},{\"type\":\"image\",\"text\":\"預診記錄頁面\",\"src\":\"/uploads/2dfaef707c929b94c17a9e399a0145b9-1600.webp\",\"layout\":\"wide\",\"detail\":\"醫師提前查看病人提交的預診信息\"},{\"type\":\"heading\",\"text\":\"病人档案：关联问诊记录\"},{\"type\":\"image\",\"text\":\"我的病人頁面\",\"src\":\"/uploads/1c42c28a4a79ab601d4f798c94187ee5-1600.webp\",\"layout\":\"wide\",\"detail\":\"為每個病人建立專屬檔案庫，可以一鍵加號，綁定病人用戶APP賬號，一件推送病歷藥方。\"},{\"type\":\"image\",\"text\":\"病人信息頁面\",\"src\":\"/uploads/e3ece90edf05c5040b8ce994e05b412d-1600.webp\",\"layout\":\"wide\",\"detail\":\"問診病歷藥方記錄。\"},{\"type\":\"heading\",\"text\":\"工作设置：预约与基础信息\"},{\"type\":\"image\",\"text\":\"預約設置頁面\",\"src\":\"/uploads/133f13ff20d53183ddcc9fbbbe0e8380-1600.webp\",\"layout\":\"wide\",\"detail\":\"\"},{\"type\":\"image\",\"text\":\"基礎設置頁面\",\"src\":\"/uploads/d8bf19467eac2f413a7138ef9896c4a1-1600.webp\",\"layout\":\"wide\",\"detail\":\"\"}]",
+      "images": [
+        "/uploads/9586b438552f860afa27835bc92f45aa-1600.webp",
+        "/uploads/d7cdc6abfae3943cca6dc18ba4b8f757-1600.webp",
+        "/uploads/426d6a72880c3aeecea42b96be9c44fe-1600.webp",
+        "/uploads/4b2c985a25a86bfd19ccd3dd68d60732-1600.webp",
+        "/uploads/73b35173778ccc9bd9971adad5eec292-1600.webp",
+        "/uploads/e6e8615ff4e79999abb52ec0636ee5c9-1600.webp",
+        "/uploads/6411969b17af3cfc7711128d62087f7b-1600.webp",
+        "/uploads/f27851db5f46074f41c0a65d475e9858-1600.webp",
+        "/uploads/2dfaef707c929b94c17a9e399a0145b9-1600.webp",
+        "/uploads/1c42c28a4a79ab601d4f798c94187ee5-1600.webp",
+        "/uploads/e3ece90edf05c5040b8ce994e05b412d-1600.webp",
+        "/uploads/133f13ff20d53183ddcc9fbbbe0e8380-1600.webp",
+        "/uploads/d8bf19467eac2f413a7138ef9896c4a1-1600.webp"
+      ],
+      "imageCaptions": [
+        "就診概覽頁面",
+        "問診頁面",
+        "問診頁面",
+        "診斷病歷頁面",
+        "藥方頁面",
+        "預約列表頁面",
+        "預約列表頁面",
+        "預約申請頁面",
+        "預診記錄頁面",
+        "我的病人頁面",
+        "病人信息頁面",
+        "預約設置頁面",
+        "基礎設置頁面"
+      ]
+    }
+  },
+  {
+    "sourceKey": "/project-brandslink-wms/",
+    "expectedHash": "d60a714b13518f331de158a45ddcaa6d746256b6de1521883a5619b15e82a59f",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目背景\"},{\"type\":\"paragraph\",\"text\":\"品连优选是全球领先的跨境电商供应链服务平台。通过人工智能、大数据和云计算技术，为跨境电商卖家提供优质产品，为供应商拓展全球市场。\"},{\"type\":\"paragraph\",\"text\":\"品连优选致力于中国智造的品牌化、全球化和持续化发展，通过整合销售渠道、商品流、物流、资金流、信息流等，打造了高效协同的跨境电商全球化供应链体系\"},{\"type\":\"paragraph\",\"text\":\"品连WMS仓储管理系统支持密集存储、异地调拨、共享库存、动态盘点、缺货预警等，为仓储资源的共享提供了信息化基础设施。\"},{\"type\":\"paragraph\",\"text\":\"以云计算、大数据为基础，共享品连仓储资源，实现资源的优化配置，为供应商提高了货品的周转效率，降低了仓储的租赁成本。\"},{\"type\":\"heading\",\"text\":\"仓储概览：任务与入口\"},{\"type\":\"image\",\"text\":\"仓储概览\",\"src\":\"/uploads/d605d333db66f5060d0d0bbd417b7bbf-1600.webp\",\"layout\":\"wide\",\"detail\":\"概览页集中展示仓库相关信息与任务入口。\"},{\"type\":\"image\",\"text\":\"概览中的快捷操作\",\"src\":\"/uploads/8929c861293e184b2cf1aecf79e66670-1600.webp\",\"layout\":\"wide\",\"detail\":\"以弹窗形式提供快捷操作入口。\"},{\"type\":\"heading\",\"text\":\"入库作业：到货、质检与退货\"},{\"type\":\"image\",\"text\":\"入库作业 / 到货通知\",\"src\":\"/uploads/834f26d5d3be70b3159eb3bc94c1d51b-1600.webp\",\"layout\":\"wide\",\"detail\":\"到货通知列表与筛选条件。\"},{\"type\":\"image\",\"text\":\"入库作业 / 到货通知详情\",\"src\":\"/uploads/f25e586d62017b5acf040752ddf9038c-1600.webp\",\"layout\":\"wide\",\"detail\":\"查看单据基本信息和商品明细。\"},{\"type\":\"image\",\"text\":\"入库作业 / 到货质检\",\"src\":\"/uploads/eaa5aaaa2ed342d0f20ade98ade4eedb-1600.webp\",\"layout\":\"wide\",\"detail\":\"质检信息与待处理商品列表。\"},{\"type\":\"image\",\"text\":\"入库作业 / 销退收货单\",\"src\":\"/uploads/0fccad55ef0adeae6172b61b93a6e5a3-1600.webp\",\"layout\":\"wide\",\"detail\":\"销退收货中的商品及数量信息。\"},{\"type\":\"heading\",\"text\":\"出库作业：称重与拣货\"},{\"type\":\"image\",\"text\":\"出库作业 / 集包称重\",\"src\":\"/uploads/673f9c76422cfe1ac38f2c1f9177e56a-1600.webp\",\"layout\":\"wide\",\"detail\":\"称重操作区与记录区并列呈现。\"},{\"type\":\"image\",\"text\":\"出库作业 / 集包称重记录\",\"src\":\"/uploads/516df9203cce8c254dae9e1c44280528-1600.webp\",\"layout\":\"wide\",\"detail\":\"填入商品后显示称重与处理记录。\"},{\"type\":\"image\",\"text\":\"出库作业 / 拣货单生成\",\"src\":\"/uploads/7ada309afdf5db8da6ae6592ae1d3452-1600.webp\",\"layout\":\"wide\",\"detail\":\"配置拣货条件并生成拣货单。\"},{\"type\":\"heading\",\"text\":\"复核出库：多品与单品作业\"},{\"type\":\"image\",\"text\":\"复核出库 / 多品播种\",\"src\":\"/uploads/14d12e9d6c2475c538509306062f6e79-1600.webp\",\"layout\":\"wide\",\"detail\":\"以格位布局呈现多品播种操作。\"},{\"type\":\"image\",\"text\":\"复核出库 / 多品播种结果\",\"src\":\"/uploads/eef937f0ad3a92eb7e2d83e0cec965d1-1600.webp\",\"layout\":\"wide\",\"detail\":\"商品信息、格位状态与记录对应展示。\"},{\"type\":\"image\",\"text\":\"复核出库 / 单品复核\",\"src\":\"/uploads/9149719e2798d30b5009c606b05f0236-1600.webp\",\"layout\":\"wide\",\"detail\":\"输入待复核信息的初始界面。\"},{\"type\":\"image\",\"text\":\"复核出库 / 单品复核结果\",\"src\":\"/uploads/31a2dd46887e5a819d13817f26290b9d-1600.webp\",\"layout\":\"wide\",\"detail\":\"商品图片、明细与复核结果同步展示。\"},{\"type\":\"heading\",\"text\":\"客户管理：资料与信息维护\"},{\"type\":\"image\",\"text\":\"客户信息\",\"src\":\"/uploads/e3a20f439684d2098ee97ec0aef21a94-1600.webp\",\"layout\":\"wide\",\"detail\":\"集中查看客户基础资料及商品信息。\"},{\"type\":\"image\",\"text\":\"客户信息编辑\",\"src\":\"/uploads/47226f8606d14f3169bbc1e4112e0b42-1600.webp\",\"layout\":\"wide\",\"detail\":\"以表单维护客户资料。\"}]",
+      "images": [
+        "/uploads/d605d333db66f5060d0d0bbd417b7bbf-1600.webp",
+        "/uploads/8929c861293e184b2cf1aecf79e66670-1600.webp",
+        "/uploads/834f26d5d3be70b3159eb3bc94c1d51b-1600.webp",
+        "/uploads/f25e586d62017b5acf040752ddf9038c-1600.webp",
+        "/uploads/eaa5aaaa2ed342d0f20ade98ade4eedb-1600.webp",
+        "/uploads/0fccad55ef0adeae6172b61b93a6e5a3-1600.webp",
+        "/uploads/673f9c76422cfe1ac38f2c1f9177e56a-1600.webp",
+        "/uploads/516df9203cce8c254dae9e1c44280528-1600.webp",
+        "/uploads/7ada309afdf5db8da6ae6592ae1d3452-1600.webp",
+        "/uploads/14d12e9d6c2475c538509306062f6e79-1600.webp",
+        "/uploads/eef937f0ad3a92eb7e2d83e0cec965d1-1600.webp",
+        "/uploads/9149719e2798d30b5009c606b05f0236-1600.webp",
+        "/uploads/31a2dd46887e5a819d13817f26290b9d-1600.webp",
+        "/uploads/e3a20f439684d2098ee97ec0aef21a94-1600.webp",
+        "/uploads/47226f8606d14f3169bbc1e4112e0b42-1600.webp"
+      ],
+      "imageCaptions": [
+        "仓储概览",
+        "概览中的快捷操作",
+        "入库作业 / 到货通知",
+        "入库作业 / 到货通知详情",
+        "入库作业 / 到货质检",
+        "入库作业 / 销退收货单",
+        "出库作业 / 集包称重",
+        "出库作业 / 集包称重记录",
+        "出库作业 / 拣货单生成",
+        "复核出库 / 多品播种",
+        "复核出库 / 多品播种结果",
+        "复核出库 / 单品复核",
+        "复核出库 / 单品复核结果",
+        "客户信息",
+        "客户信息编辑"
+      ]
+    }
+  },
+  {
+    "sourceKey": "/project-oms/",
+    "expectedHash": "0c7dbf502cce9e89592a06d0f87e06d1f6d191451b098634831cae250e3feba8",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目背景\"},{\"type\":\"paragraph\",\"text\":\"此项目为业余时间参加墨刀 UI 组件赛事的投稿作品。\"},{\"type\":\"heading\",\"text\":\"经营概览：信息摘要\"},{\"type\":\"image\",\"text\":\"经营概览\",\"src\":\"/uploads/0c61cc86eb98ff7a54c57aa875603163-1600.webp\",\"layout\":\"wide\",\"detail\":\"用图表与摘要组织交易和订单信息。\"},{\"type\":\"heading\",\"text\":\"商品管理：资料与分类\"},{\"type\":\"image\",\"text\":\"商品列表\",\"src\":\"/uploads/b60a0cae640b5d959a542ea3639cec7b-1600.webp\",\"layout\":\"wide\",\"detail\":\"通过状态、搜索和筛选定位商品。\"},{\"type\":\"image\",\"text\":\"商品信息编辑\",\"src\":\"/uploads/cd79a49eb21eb79c9df11cf134df1897-1600.webp\",\"layout\":\"wide\",\"detail\":\"以分区表单编辑商品资料、图片和规格。\"},{\"type\":\"image\",\"text\":\"商品详情\",\"src\":\"/uploads/c60276c62351036bf4d434093e133290-1600.webp\",\"layout\":\"wide\",\"detail\":\"查看商品基础信息和销售相关资料。\"},{\"type\":\"image\",\"text\":\"分类管理\",\"src\":\"/uploads/e209a23309ba5131de1e2aec7878f555-1600.webp\",\"layout\":\"wide\",\"detail\":\"树状结构展示分类层级及启用状态。\"},{\"type\":\"image\",\"text\":\"新增分类\",\"src\":\"/uploads/0842a4a9783fd1c3cd708ef19afeee0c-1600.webp\",\"layout\":\"wide\",\"detail\":\"通过弹窗补充分类名称和说明。\"},{\"type\":\"heading\",\"text\":\"入库与库存：单据和商品\"},{\"type\":\"image\",\"text\":\"入库管理\",\"src\":\"/uploads/eb693ceb0ff11525f792992e0ce0f866-1600.webp\",\"layout\":\"wide\",\"detail\":\"入库摘要、状态筛选和单据列表。\"},{\"type\":\"image\",\"text\":\"创建入库单\",\"src\":\"/uploads/19822be74b20d82c2e87939a7a39d620-1600.webp\",\"layout\":\"wide\",\"detail\":\"填写入库基本信息并添加商品。\"},{\"type\":\"image\",\"text\":\"选择入库商品\",\"src\":\"/uploads/1ccd423b793f3abae99e3b1b732603cd-1600.webp\",\"layout\":\"wide\",\"detail\":\"在选择弹窗中搜索并勾选商品。\"},{\"type\":\"image\",\"text\":\"入库单详情\",\"src\":\"/uploads/e041d52f52324ee7d3ffd8a9155951a5-1600.webp\",\"layout\":\"wide\",\"detail\":\"入库单的状态、基础信息和商品明细。\"},{\"type\":\"image\",\"text\":\"库存管理\",\"src\":\"/uploads/005a417b8815826ef3feaf3828d45122-1600.webp\",\"layout\":\"wide\",\"detail\":\"库存摘要与商品库存列表。\"},{\"type\":\"heading\",\"text\":\"销售订单：列表与处理\"},{\"type\":\"image\",\"text\":\"销售订单\",\"src\":\"/uploads/432378ad9a99b73c64b90be21052fca3-1600.webp\",\"layout\":\"wide\",\"detail\":\"按状态组织订单，并提供筛选与批量操作。\"},{\"type\":\"image\",\"text\":\"订单拦截\",\"src\":\"/uploads/45a90e31f86e34f391c0e7a51adfb311-1600.webp\",\"layout\":\"wide\",\"detail\":\"以弹窗填写订单拦截信息。\"},{\"type\":\"image\",\"text\":\"销售订单详情\",\"src\":\"/uploads/89f4a20db1b5476bda3ad95c473ae6d8-1600.webp\",\"layout\":\"wide\",\"detail\":\"在同一详情页查看订单进度、收货资料和商品。\"},{\"type\":\"image\",\"text\":\"手工创建订单\",\"src\":\"/uploads/50c242d120b41d175594a91728d9a8ef-1600.webp\",\"layout\":\"wide\",\"detail\":\"通过表单录入订单与商品信息。\"},{\"type\":\"heading\",\"text\":\"结算与售后：金额和状态\"},{\"type\":\"image\",\"text\":\"订单结算\",\"src\":\"/uploads/703193d209a1dea49030740804a686d8-1600.webp\",\"layout\":\"wide\",\"detail\":\"以金额摘要和列表组织结算信息。\"},{\"type\":\"image\",\"text\":\"售后管理\",\"src\":\"/uploads/ba1792be928a3281f0b8b09f13373040-1600.webp\",\"layout\":\"wide\",\"detail\":\"按退款状态与条件查看售后单据。\"},{\"type\":\"image\",\"text\":\"退款订单详情\",\"src\":\"/uploads/9adca428356bd92d81efde631ef3e35f-1600.webp\",\"layout\":\"wide\",\"detail\":\"呈现退款进度、原因和对应商品。\"},{\"type\":\"heading\",\"text\":\"评价与权限：统计和角色\"},{\"type\":\"image\",\"text\":\"评价管理\",\"src\":\"/uploads/a23135f666174dbf260fe710a377ca75-1600.webp\",\"layout\":\"wide\",\"detail\":\"结合平台评价统计和待评价列表。\"},{\"type\":\"image\",\"text\":\"添加角色\",\"src\":\"/uploads/1ebd8c7a56a14b36420f3695c94267e8-1600.webp\",\"layout\":\"wide\",\"detail\":\"以权限树选择角色可访问的功能。\"}]",
+      "images": [
+        "/uploads/0c61cc86eb98ff7a54c57aa875603163-1600.webp",
+        "/uploads/b60a0cae640b5d959a542ea3639cec7b-1600.webp",
+        "/uploads/cd79a49eb21eb79c9df11cf134df1897-1600.webp",
+        "/uploads/c60276c62351036bf4d434093e133290-1600.webp",
+        "/uploads/e209a23309ba5131de1e2aec7878f555-1600.webp",
+        "/uploads/0842a4a9783fd1c3cd708ef19afeee0c-1600.webp",
+        "/uploads/eb693ceb0ff11525f792992e0ce0f866-1600.webp",
+        "/uploads/19822be74b20d82c2e87939a7a39d620-1600.webp",
+        "/uploads/1ccd423b793f3abae99e3b1b732603cd-1600.webp",
+        "/uploads/e041d52f52324ee7d3ffd8a9155951a5-1600.webp",
+        "/uploads/005a417b8815826ef3feaf3828d45122-1600.webp",
+        "/uploads/432378ad9a99b73c64b90be21052fca3-1600.webp",
+        "/uploads/45a90e31f86e34f391c0e7a51adfb311-1600.webp",
+        "/uploads/89f4a20db1b5476bda3ad95c473ae6d8-1600.webp",
+        "/uploads/50c242d120b41d175594a91728d9a8ef-1600.webp",
+        "/uploads/703193d209a1dea49030740804a686d8-1600.webp",
+        "/uploads/ba1792be928a3281f0b8b09f13373040-1600.webp",
+        "/uploads/9adca428356bd92d81efde631ef3e35f-1600.webp",
+        "/uploads/a23135f666174dbf260fe710a377ca75-1600.webp",
+        "/uploads/1ebd8c7a56a14b36420f3695c94267e8-1600.webp"
+      ],
+      "imageCaptions": [
+        "经营概览",
+        "商品列表",
+        "商品信息编辑",
+        "商品详情",
+        "分类管理",
+        "新增分类",
+        "入库管理",
+        "创建入库单",
+        "选择入库商品",
+        "入库单详情",
+        "库存管理",
+        "销售订单",
+        "订单拦截",
+        "销售订单详情",
+        "手工创建订单",
+        "订单结算",
+        "售后管理",
+        "退款订单详情",
+        "评价管理",
+        "添加角色"
+      ]
+    }
+  },
+  {
+    "sourceKey": "/project-michaels-buyer-app/",
+    "expectedHash": "d1bb11290e6b4b95a9ad502e514d9b8f584f0da0f4a01704fbde2f6c21af2e39",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目背景\"},{\"type\":\"paragraph\",\"text\":\"Michaels 是北美最大的工艺美术零售商，在全美 49 个州及加拿大均设有门店，致力于为创作者提供灵感与工艺制作材料。\"},{\"type\":\"heading\",\"text\":\"移动购物：主要功能\"},{\"type\":\"image\",\"text\":\"购物、会员与账户\",\"src\":\"/uploads/46253dcc590434a4c6f39b6391223a99-1600.webp\",\"layout\":\"wide\",\"detail\":\"原始展示图集中呈现购物、会员奖励、购物清单和账户相关界面。\"},{\"type\":\"heading\",\"text\":\"视觉语言：插画与权益\"},{\"type\":\"image\",\"text\":\"视觉设计展示\",\"src\":\"/uploads/b8963ab91b9608ae8feb63282bb59fec-1600.webp\",\"layout\":\"wide\",\"detail\":\"插画、操作引导和优惠权益使用统一的品牌视觉。\"},{\"type\":\"heading\",\"text\":\"功能延展：更多界面\"},{\"type\":\"image\",\"text\":\"界面全景\",\"src\":\"/uploads/e8ce11dab9be6c3f109b45605a9d0834-1600.webp\",\"layout\":\"wide\",\"detail\":\"保留原始整幅展示图，可打开原图查看各界面的具体细节。\"}]",
+      "images": [
+        "/uploads/46253dcc590434a4c6f39b6391223a99-1600.webp",
+        "/uploads/b8963ab91b9608ae8feb63282bb59fec-1600.webp",
+        "/uploads/e8ce11dab9be6c3f109b45605a9d0834-1600.webp"
+      ],
+      "imageCaptions": [
+        "购物、会员与账户",
+        "视觉设计展示",
+        "界面全景"
+      ]
+    }
+  },
+  {
+    "sourceKey": "/project-cirsureas-app/",
+    "expectedHash": "3dd113c2719ede0d44324df97e0c8e1efafb3292dbebe5cc068109592a1585b9",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目介绍\"},{\"type\":\"paragraph\",\"text\":\"CirSureas combines \\\"Precision\\\" and \\\"Assurance,\\\" dedicated to bringing the science of precise temperature control from professional kitchens to every cooking enthusiast.\"},{\"type\":\"paragraph\",\"text\":\"We have enhanced AICOOKING multi-probe identification with assignable probe numbering, allowing you to conveniently monitor the temperature of multiple ingredients simultaneously.\"},{\"type\":\"paragraph\",\"text\":\"Additionally, we have upgraded the cooking log feature with photo storage, enabling you to effortlessly save and revisit your grilling parameters anytime.\"},{\"type\":\"heading\",\"text\":\"产品概览：温度与烹饪\"},{\"type\":\"image\",\"text\":\"无线智能温度探针应用\",\"src\":\"/uploads/a41ee3619cf6837bd8582a166481933b-1600.webp\",\"layout\":\"wide\",\"detail\":\"界面展示温度监测、烹饪预设与多探针状态。\"},{\"type\":\"heading\",\"text\":\"改版方向：需求与设计策略\"},{\"type\":\"image\",\"text\":\"需求拆解与设计流程\",\"src\":\"/uploads/54211152dbe35fb8328e49951c3cad4d-1600.webp\",\"layout\":\"wide\",\"detail\":\"按交互、视觉与功能三个方向整理改版需求。\"},{\"type\":\"heading\",\"text\":\"交互对比：旧版与新版\"},{\"type\":\"image\",\"text\":\"界面风格和交互对比\",\"src\":\"/uploads/2017bbb3deb30dd3e7cd8af0fdf74fda-1600.webp\",\"layout\":\"wide\",\"detail\":\"原图并列呈现旧版与新版页面及调整说明。\"},{\"type\":\"heading\",\"text\":\"页面延展：完整体验\"},{\"type\":\"image\",\"text\":\"更多页面展示\",\"src\":\"/uploads/eb84b044034afafca87e574d4fe5ced5-1600.webp\",\"layout\":\"wide\",\"detail\":\"保留烹饪、设备、预设和记录相关界面的完整展示。\"}]",
+      "images": [
+        "/uploads/a41ee3619cf6837bd8582a166481933b-1600.webp",
+        "/uploads/54211152dbe35fb8328e49951c3cad4d-1600.webp",
+        "/uploads/2017bbb3deb30dd3e7cd8af0fdf74fda-1600.webp",
+        "/uploads/eb84b044034afafca87e574d4fe5ced5-1600.webp"
+      ],
+      "imageCaptions": [
+        "无线智能温度探针应用",
+        "需求拆解与设计流程",
+        "界面风格和交互对比",
+        "更多页面展示"
+      ]
+    }
+  },
+  {
+    "sourceKey": "/project-michaels-ops-management-system/",
+    "expectedHash": "d6c1b6b509197993b69141e08911fda5957d8d5e34b551fb7177c19829aa90a9",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目背景\"},{\"type\":\"paragraph\",\"text\":\"Michaels技术团队（深圳）运维支持系统，内部使用。\"},{\"type\":\"ul\",\"text\":\"我的角色：UIUX设计师。\\n具体执行：对接开发团队需求，初始框架搭建&风格设定，输出高保真设计稿，设计系统&组建维护，交付开发。\"},{\"type\":\"heading\",\"text\":\"工作台：运维入口\"},{\"type\":\"image\",\"text\":\"运维工作台\",\"src\":\"/uploads/43aa2f9335d41092e0497a5c0dc60e63-1600.webp\",\"layout\":\"wide\",\"detail\":\"集中展示前端告警、离线包与数据管理入口。\"},{\"type\":\"heading\",\"text\":\"告警处理：从列表到详情\"},{\"type\":\"image\",\"text\":\"告警列表\",\"src\":\"/uploads/bdf6e5cd8f08457df65d4941856066f7-1600.webp\",\"layout\":\"wide\",\"detail\":\"按条件筛选告警，区分优先级及处理状态。\"},{\"type\":\"image\",\"text\":\"告警详情\",\"src\":\"/uploads/e8c2411b1cdab6f937aec5dc7dbdacb2-1600.webp\",\"layout\":\"wide\",\"detail\":\"聚合告警资料、环境信息与日志。\"},{\"type\":\"heading\",\"text\":\"数据看板：模块与页面\"},{\"type\":\"image\",\"text\":\"模块看板\",\"src\":\"/uploads/1811e345d183270020526b21843d7f26-1600.webp\",\"layout\":\"wide\",\"detail\":\"以模块组织趋势、分类及相关统计。\"},{\"type\":\"image\",\"text\":\"模块详情看板\",\"src\":\"/uploads/999ac3f3b3e09a4b5faca7ea53d15c13-1600.webp\",\"layout\":\"wide\",\"detail\":\"展开单个模块的指标和分类分布。\"},{\"type\":\"image\",\"text\":\"页面性能详情\",\"src\":\"/uploads/dfe47db473f05c2a67530b9995dd0a72-1600.webp\",\"layout\":\"wide\",\"detail\":\"查看页面性能指标与关联告警。\"},{\"type\":\"image\",\"text\":\"页面看板\",\"src\":\"/uploads/8dda1c9d61a92828fb466bf4ec4e33c8-1600.webp\",\"layout\":\"wide\",\"detail\":\"按业务页面分组展示监测对象。\"},{\"type\":\"heading\",\"text\":\"基础配置：数据与环境\"},{\"type\":\"image\",\"text\":\"初始数据配置\",\"src\":\"/uploads/9e3c356bd2c7dbb7b6bda1d68dd19cfc-1600.webp\",\"layout\":\"wide\",\"detail\":\"维护环境、模块和字段等基础配置。\"},{\"type\":\"image\",\"text\":\"数据配置编辑\",\"src\":\"/uploads/d9edf796c5f786b6d111a1f106d7537d-1600.webp\",\"layout\":\"wide\",\"detail\":\"在表单中编辑配置内容。\"}]",
+      "images": [
+        "/uploads/43aa2f9335d41092e0497a5c0dc60e63-1600.webp",
+        "/uploads/bdf6e5cd8f08457df65d4941856066f7-1600.webp",
+        "/uploads/e8c2411b1cdab6f937aec5dc7dbdacb2-1600.webp",
+        "/uploads/1811e345d183270020526b21843d7f26-1600.webp",
+        "/uploads/999ac3f3b3e09a4b5faca7ea53d15c13-1600.webp",
+        "/uploads/dfe47db473f05c2a67530b9995dd0a72-1600.webp",
+        "/uploads/8dda1c9d61a92828fb466bf4ec4e33c8-1600.webp",
+        "/uploads/9e3c356bd2c7dbb7b6bda1d68dd19cfc-1600.webp",
+        "/uploads/d9edf796c5f786b6d111a1f106d7537d-1600.webp"
+      ],
+      "imageCaptions": [
+        "运维工作台",
+        "告警列表",
+        "告警详情",
+        "模块看板",
+        "模块详情看板",
+        "页面性能详情",
+        "页面看板",
+        "初始数据配置",
+        "数据配置编辑"
+      ]
+    }
+  },
+  {
+    "sourceKey": "/project-michaels-official-website-new-platform/",
+    "expectedHash": "fe0d1e256caf6244c1516fd011b4dbaaef61b753faee32c8b245da6981968b2f",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目背景\"},{\"type\":\"paragraph\",\"text\":\"Michaels官方网站的升级改版设计工作。\"},{\"type\":\"ul\",\"text\":\"我的角色：UI&UX设计师。\\n负责版块：Product List ，Product Details，Shopping Cart，Checkout。\\n具体执行：梳理业务逻辑，优化交互流程，输出高保真设计稿，交付开发文件，页面走查&沟通调整等。\"},{\"type\":\"heading\",\"text\":\"多端适配：列表布局\"},{\"type\":\"image\",\"text\":\"Product List / 响应式布局\",\"src\":\"/uploads/51b9d0f94bc769d9090b39f85cced89b-1600.webp\",\"layout\":\"wide\",\"detail\":\"原图展示商品列表在不同屏幕宽度下的信息重排。\"},{\"type\":\"heading\",\"text\":\"商品发现：列表与详情\"},{\"type\":\"image\",\"text\":\"Product List Page\",\"src\":\"/uploads/8a43ffb80b5f583ac515e38cee06e746-1600.webp\",\"layout\":\"wide\",\"detail\":\"完整商品列表页面：分类、筛选与商品浏览。\"},{\"type\":\"image\",\"text\":\"Product Details Page\",\"src\":\"/uploads/386f19db109f2c161d309e4d69b7d490-1600.webp\",\"layout\":\"wide\",\"detail\":\"完整商品详情页面：商品信息、选项及相关内容。\"},{\"type\":\"heading\",\"text\":\"购物车：确认待购商品\"},{\"type\":\"image\",\"text\":\"Shopping Cart Page\",\"src\":\"/uploads/b82eb137cf8fce28456d634f6ebd9de1-1600.webp\",\"layout\":\"wide\",\"detail\":\"购物车中的商品、数量与订单摘要。\"},{\"type\":\"heading\",\"text\":\"结账流程：配送、支付与确认\"},{\"type\":\"image\",\"text\":\"Getting your Order\",\"src\":\"/uploads/5e5893527fa6af918c3d7b30e24224e6-1600.webp\",\"layout\":\"wide\",\"detail\":\"收货方式、联系资料和订单信息。\"},{\"type\":\"image\",\"text\":\"Payment & Order Review\",\"src\":\"/uploads/8b7c87cf250239328e50636fdbb6000a-1600.webp\",\"layout\":\"wide\",\"detail\":\"支付信息与订单复核。\"},{\"type\":\"image\",\"text\":\"Order Confirmation\",\"src\":\"/uploads/0e263849023679a4edc7ba767048f10a-1600.webp\",\"layout\":\"wide\",\"detail\":\"下单确认及订单相关信息。\"}]",
+      "images": [
+        "/uploads/51b9d0f94bc769d9090b39f85cced89b-1600.webp",
+        "/uploads/8a43ffb80b5f583ac515e38cee06e746-1600.webp",
+        "/uploads/386f19db109f2c161d309e4d69b7d490-1600.webp",
+        "/uploads/b82eb137cf8fce28456d634f6ebd9de1-1600.webp",
+        "/uploads/5e5893527fa6af918c3d7b30e24224e6-1600.webp",
+        "/uploads/8b7c87cf250239328e50636fdbb6000a-1600.webp",
+        "/uploads/0e263849023679a4edc7ba767048f10a-1600.webp"
+      ],
+      "imageCaptions": [
+        "Product List / 响应式布局",
+        "Product List Page",
+        "Product Details Page",
+        "Shopping Cart Page",
+        "Getting your Order",
+        "Payment & Order Review",
+        "Order Confirmation"
+      ]
+    }
+  },
+  {
+    "sourceKey": "/project-apricot-app/",
+    "expectedHash": "bee3b4e491e39fc08d13fbb32965ff7121a81027cde00da36acf5cddec7777c8",
+    "patch": {
+      "description": "[{\"type\":\"heading\",\"text\":\"项目背景\"},{\"type\":\"paragraph\",\"text\":\"Apricot App（友杏）是Apricot AI打造的用戶（病人）工具。支持預約問診、九型體質測試、每日自測、接收問診病歷藥方。\"},{\"type\":\"heading\",\"text\":\"认识体质：从首页开始\"},{\"type\":\"image\",\"text\":\"用戶初次登錄\",\"src\":\"/uploads/90d0cb2c87e688a201afeaac06ff4ef6-1600.webp\",\"layout\":\"card\",\"detail\":\"首页集中呈现体质测试、每日自测、预约问诊与病历入口。\"},{\"type\":\"image\",\"text\":\"九型體質測試入口\",\"src\":\"/uploads/ad24983c5a2be84ae7ab19a784c2648d-1600.webp\",\"layout\":\"card\",\"detail\":\"以九型体质介绍和测试入口组织初次使用路径。\"},{\"type\":\"image\",\"text\":\"九型體質專屬頁\",\"src\":\"/uploads/99667007fdd2f09e1fb8244e2b8994d0-1600.webp\",\"layout\":\"card\",\"detail\":\"体质结果页呈现专属内容与日常工具。\"},{\"type\":\"heading\",\"text\":\"每日自测：问答与影像\"},{\"type\":\"image\",\"text\":\"每日自測問答\",\"src\":\"/uploads/7dbed46ef836f7d327bafe0465089dad-1600.webp\",\"layout\":\"card\",\"detail\":\"按步骤填写每日自测问题。\"},{\"type\":\"image\",\"text\":\"舌象照片\",\"src\":\"/uploads/e721274b4c843d35583cb60e03742a45-1600.webp\",\"layout\":\"card\",\"detail\":\"以拍摄示意引导舌象照片采集。\"},{\"type\":\"image\",\"text\":\"每日自測結果\",\"src\":\"/uploads/0c37bac14703d1cd011040cb7dd6fcb4-1600.webp\",\"layout\":\"card\",\"detail\":\"结果页汇总自测内容及记录。\"},{\"type\":\"heading\",\"text\":\"预约问诊：选择医师与时间\"},{\"type\":\"image\",\"text\":\"預約問診頁面\",\"src\":\"/uploads/577f2ecc647ca655fbadbcdb3c4148eb-1600.webp\",\"layout\":\"card\",\"detail\":\"从预约列表进入问诊服务。\"},{\"type\":\"image\",\"text\":\"醫師主頁\",\"src\":\"/uploads/777d94f85b46003df3e1bf1c624d05b4-1600.webp\",\"layout\":\"card\",\"detail\":\"查看医师介绍及问诊入口。\"},{\"type\":\"image\",\"text\":\"預約頁面\",\"src\":\"/uploads/e9c4438a4890655fe581d9b6df530a7a-1600.webp\",\"layout\":\"card\",\"detail\":\"通过日期与时间选项完成预约信息选择。\"},{\"type\":\"heading\",\"text\":\"在线预诊：准备问诊资料\"},{\"type\":\"image\",\"text\":\"預約成功，可在線預診\",\"src\":\"/uploads/4c44fa22bbe785c4cc02d5656bc91798-1600.webp\",\"layout\":\"card\",\"detail\":\"预约成功后继续进入在线预诊。\"},{\"type\":\"image\",\"text\":\"預診頁面\",\"src\":\"/uploads/f0c134fb59c9fc7f6ccf547191c90b22-1600.webp\",\"layout\":\"card\",\"detail\":\"分步填写预诊资料与描述。\"},{\"type\":\"image\",\"text\":\"預診報告\",\"src\":\"/uploads/b38771d70963afe7807de3cd07ad9c60-1600.webp\",\"layout\":\"card\",\"detail\":\"汇总已提交的预诊资料和图片。\"},{\"type\":\"heading\",\"text\":\"健康记录：日常内容与病历\"},{\"type\":\"image\",\"text\":\"日常推送體質相關\",\"src\":\"/uploads/b5b21bcb0a15f6baa02b4d7d02557998-1600.webp\",\"layout\":\"card\",\"detail\":\"首页呈现体质相关的日常内容。\"},{\"type\":\"image\",\"text\":\"病歷藥方記錄\",\"src\":\"/uploads/ef9440bc057abc50246c02c9c6adff3a-1600.webp\",\"layout\":\"card\",\"detail\":\"以列表组织已有病历和药方。\"},{\"type\":\"image\",\"text\":\"病歷藥方詳情\",\"src\":\"/uploads/08d446db66a9961b364df29613fce91a-1600.webp\",\"layout\":\"card\",\"detail\":\"在详情页查看对应病历与药方内容。\"}]",
+      "images": [
+        "/uploads/90d0cb2c87e688a201afeaac06ff4ef6-1600.webp",
+        "/uploads/ad24983c5a2be84ae7ab19a784c2648d-1600.webp",
+        "/uploads/99667007fdd2f09e1fb8244e2b8994d0-1600.webp",
+        "/uploads/7dbed46ef836f7d327bafe0465089dad-1600.webp",
+        "/uploads/e721274b4c843d35583cb60e03742a45-1600.webp",
+        "/uploads/0c37bac14703d1cd011040cb7dd6fcb4-1600.webp",
+        "/uploads/577f2ecc647ca655fbadbcdb3c4148eb-1600.webp",
+        "/uploads/777d94f85b46003df3e1bf1c624d05b4-1600.webp",
+        "/uploads/e9c4438a4890655fe581d9b6df530a7a-1600.webp",
+        "/uploads/4c44fa22bbe785c4cc02d5656bc91798-1600.webp",
+        "/uploads/f0c134fb59c9fc7f6ccf547191c90b22-1600.webp",
+        "/uploads/b38771d70963afe7807de3cd07ad9c60-1600.webp",
+        "/uploads/b5b21bcb0a15f6baa02b4d7d02557998-1600.webp",
+        "/uploads/ef9440bc057abc50246c02c9c6adff3a-1600.webp",
+        "/uploads/08d446db66a9961b364df29613fce91a-1600.webp"
+      ],
+      "imageCaptions": [
+        "用戶初次登錄",
+        "九型體質測試入口",
+        "九型體質專屬頁",
+        "每日自測問答",
+        "舌象照片",
+        "每日自測結果",
+        "預約問診頁面",
+        "醫師主頁",
+        "預約頁面",
+        "預約成功，可在線預診",
+        "預診頁面",
+        "預診報告",
+        "日常推送體質相關",
+        "病歷藥方記錄",
+        "病歷藥方詳情"
+      ]
+    }
+  }
+]

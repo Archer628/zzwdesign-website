@@ -1,0 +1,106 @@
+[
+  {
+    "src": "/uploads/9586b438552f860afa27835bc92f45aa-1600.webp",
+    "text": "就诊概览 / 两组状态，各自回答问题",
+    "source": "images/project-apricot-medical-assistant-system/67aeef30fce7-Apricot-Medical-Assistant-System01.webp",
+    "generated": false,
+    "sourceSha256": "9586b438552f860afa27835bc92f45aaaabddf4d1d0f6ec26d99fdb460919416",
+    "mediaSha256": "1b95e480ba405db75d51f6bcc217111e542d57cdd1125f8e7f2dd68c365dc171"
+  },
+  {
+    "src": "/uploads/d7cdc6abfae3943cca6dc18ba4b8f757-1600.webp",
+    "text": "开始采集 / 空白也需要准确解释",
+    "source": "images/project-apricot-medical-assistant-system/9cf3fdf568fd-Apricot-Medical-Assistant-System02.webp",
+    "generated": false,
+    "sourceSha256": "d7cdc6abfae3943cca6dc18ba4b8f75742bd8036ffebdac1502a4d6086ee5c72",
+    "mediaSha256": "41f5bf8419fccbac30a4d2152577b3b79a2904df36b95e32dffee58a802422a3"
+  },
+  {
+    "src": "/uploads/426d6a72880c3aeecea42b96be9c44fe-1600.webp",
+    "text": "采集中 / 让每条提示找到它的依据",
+    "source": "images/project-apricot-medical-assistant-system/c04bc9c12d44-Apricot-Medical-Assistant-System03.webp",
+    "generated": false,
+    "sourceSha256": "426d6a72880c3aeecea42b96be9c44fe4772c96ff79379af086d4c43750207d7",
+    "mediaSha256": "9422eca05f393cd5749e323b21a333cdb9b9d5208792d681a556ae6a3d5f6808"
+  },
+  {
+    "src": "/uploads/4b2c985a25a86bfd19ccd3dd68d60732-1600.webp",
+    "text": "病历草稿 / 两个出口体现不同意图",
+    "source": "images/project-apricot-medical-assistant-system/be7baf2d6d7b-Apricot-Medical-Assistant-System04.webp",
+    "generated": false,
+    "sourceSha256": "4b2c985a25a86bfd19ccd3dd68d607325b32bc9990bca4045c00dc5ed0d61cc3",
+    "mediaSha256": "7241bdf00dafd965e54f34e964b4fd25280ffce2137f1fad113392abce05628a"
+  },
+  {
+    "src": "/uploads/73b35173778ccc9bd9971adad5eec292-1600.webp",
+    "text": "推荐药方 / 保留比较，明确确认",
+    "source": "images/project-apricot-medical-assistant-system/836ae46a53ba-Apricot-Medical-Assistant-System05.webp",
+    "generated": false,
+    "sourceSha256": "73b35173778ccc9bd9971adad5eec29243bc0ae3ebbf6fe261c9eb6b0de035a4",
+    "mediaSha256": "ceb151964748cbba4842025fa7df64ce4ea38f63d0d7e4c0e9f081fbe0114a3d"
+  },
+  {
+    "src": "/uploads/1c42c28a4a79ab601d4f798c94187ee5-1600.webp",
+    "text": "病人列表 / 快捷操作之前保留身份线索",
+    "source": "images/project-apricot-medical-assistant-system/20148887309a-Apricot-Medical-Assistant-System10.webp",
+    "generated": false,
+    "sourceSha256": "1c42c28a4a79ab601d4f798c94187ee552097df02ddf48856fba03bcbccfcaf2",
+    "mediaSha256": "df84380d1bf51e61e5c960b9b28ef573e768822fdd03fde6e4030a38ed3dcbb8"
+  },
+  {
+    "src": "/uploads/e3ece90edf05c5040b8ce994e05b412d-1600.webp",
+    "text": "就诊档案 / 先选日期，再看记录",
+    "source": "images/project-apricot-medical-assistant-system/236c1e453552-Apricot-Medical-Assistant-System11.webp",
+    "generated": false,
+    "sourceSha256": "e3ece90edf05c5040b8ce994e05b412da11303883626f7c97778648f09448e62",
+    "mediaSha256": "08dab0aeb6997709fe6ffb363b7ef28573a022c67ad672ac884cea3328cdd02b"
+  },
+  {
+    "src": "/uploads/e6e8615ff4e79999abb52ec0636ee5c9-1600.webp",
+    "text": "日历视图 / 先看一天如何被安排",
+    "source": "images/project-apricot-medical-assistant-system/b66d58df730a-Apricot-Medical-Assistant-System06.webp",
+    "generated": false,
+    "sourceSha256": "e6e8615ff4e79999abb52ec0636ee5c9ca2807165a9db4ebbe94369fe79b5a31",
+    "mediaSha256": "32f1f11ea73ff77f36e79c00c3629c75a736a2a8db0c39fb077603838af92fa0"
+  },
+  {
+    "src": "/uploads/6411969b17af3cfc7711128d62087f7b-1600.webp",
+    "text": "列表视图 / 找到具体的一次预约",
+    "source": "images/project-apricot-medical-assistant-system/fd28b4032063-Apricot-Medical-Assistant-System07.webp",
+    "generated": false,
+    "sourceSha256": "6411969b17af3cfc7711128d62087f7b08ce35f0674e38db9950f292283de32a",
+    "mediaSha256": "0b5ece357f630e62d0acc959c8bce73ef685ce8e9f84b1b2311f62f66bf0d592"
+  },
+  {
+    "src": "/uploads/f27851db5f46074f41c0a65d475e9858-1600.webp",
+    "text": "申请处理 / 确认安排，也解释通知结果",
+    "source": "images/project-apricot-medical-assistant-system/ff3bca440885-Apricot-Medical-Assistant-System08.webp",
+    "generated": false,
+    "sourceSha256": "f27851db5f46074f41c0a65d475e985837116fa3ebcac8a21bf4fe1e41732a45",
+    "mediaSha256": "013d6e1b19f98fe530614f62f096f64a538558bc1466e18d46ff0130396661ab"
+  },
+  {
+    "src": "/uploads/2dfaef707c929b94c17a9e399a0145b9-1600.webp",
+    "text": "预诊记录 / 到诊前的准备进度",
+    "source": "images/project-apricot-medical-assistant-system/b2d7c58d18ee-Apricot-Medical-Assistant-System09.webp",
+    "generated": false,
+    "sourceSha256": "2dfaef707c929b94c17a9e399a0145b9140c1c44893e8ecfd177e7267a9dc760",
+    "mediaSha256": "775330373fdba8deba7b444cce5cdc32fa6698b9afdaeb3361dabe83665babae"
+  },
+  {
+    "src": "/uploads/133f13ff20d53183ddcc9fbbbe0e8380-1600.webp",
+    "text": "预约规则 / 诊所通用与医生配置",
+    "source": "images/project-apricot-medical-assistant-system/e7bb99f539b6-Apricot-Medical-Assistant-System12.webp",
+    "generated": false,
+    "sourceSha256": "133f13ff20d53183ddcc9fbbbe0e83803a34952666edde814aa4f1f359d6b801",
+    "mediaSha256": "a711751c603f8f3861edd9878620b3903b0081eb8d10acf9aa56d0355be8dacc"
+  },
+  {
+    "src": "/uploads/d8bf19467eac2f413a7138ef9896c4a1-1600.webp",
+    "text": "基础偏好 / 把相似选项的作用拆开",
+    "source": "images/project-apricot-medical-assistant-system/f607d986a5a8-Apricot-Medical-Assistant-System13.webp",
+    "generated": false,
+    "sourceSha256": "d8bf19467eac2f413a7138ef9896c4a17373b2682480cdeedb61609ba44f3fd7",
+    "mediaSha256": "27a91b8ca84fe030370cff63c2ccbb6ec26561e6c89cae64ab94051f4db6f146"
+  }
+]

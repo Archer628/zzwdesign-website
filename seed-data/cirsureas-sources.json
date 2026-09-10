@@ -1,0 +1,622 @@
+[
+  {
+    "file": "P01.jpg",
+    "sha256": "1b00484e39e821a6b0099b9d0d969f6b8bcd9ab82bd513b07cbbe24e72106f03",
+    "width": 1125,
+    "height": 2436,
+    "reading": "设备列表与连接状态",
+    "included": false,
+    "reason": "设备层级由 P02/P03/P04 代表，保留原稿供追溯",
+    "src": null
+  },
+  {
+    "file": "P02.jpg",
+    "sha256": "0ad437a9d6db934f4f7655f5b1ed25ef6b41941d8634d14e5cb60df38f9d3fea",
+    "width": 1125,
+    "height": 2436,
+    "reading": "设备下探针的待开始/烹饪状态",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/0ad437a9d6db934f4f7655f5b1ed25ef-1600.webp"
+  },
+  {
+    "file": "P03.jpg",
+    "sha256": "14219037bafa938e39ba366e738ecbf666f9e1999bfcb3332be61ad3df77cbbd",
+    "width": 1125,
+    "height": 2436,
+    "reading": "盒子信息及探针连接弹窗两种状态",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/14219037bafa938e39ba366e738ecbf6-1600.webp"
+  },
+  {
+    "file": "P04.jpg",
+    "sha256": "16dbe1699e66b67b51a3df9fe96c7a3611cce48ba50a1ae4aab5c8ccd3b0fcda",
+    "width": 1125,
+    "height": 2436,
+    "reading": "低电量提醒",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/16dbe1699e66b67b51a3df9fe96c7a36-1600.webp"
+  },
+  {
+    "file": "P05.jpg",
+    "sha256": "caf5b088a79747cac414150d41e5d882dc03eb0c058cd643edaaea833b0926aa",
+    "width": 1125,
+    "height": 3654,
+    "reading": "多设备与失联探针长列表",
+    "included": false,
+    "reason": "设备层级由 P02/P03/P04 代表，保留原稿供追溯",
+    "src": null
+  },
+  {
+    "file": "P06.jpg",
+    "sha256": "88fcf6d027dc183b88f1c98967f37d3bf60ac2962f7189472ada92e6d1f540db",
+    "width": 1125,
+    "height": 2436,
+    "reading": "未设置烹饪的单探针详情",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/88fcf6d027dc183b88f1c98967f37d3b-1600.webp"
+  },
+  {
+    "file": "P07.jpg",
+    "sha256": "b0fe43c9d4035bea49058d98e4776d7847ac793d5f0031151665b4786e7c2826",
+    "width": 1125,
+    "height": 2436,
+    "reading": "选择食材与历史入口",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/b0fe43c9d4035bea49058d98e4776d78-1600.webp"
+  },
+  {
+    "file": "P08.jpg",
+    "sha256": "8c8655ca9e7f309623ae81bc1415bf6f065cbee38b8151d96470722fb1ed3964",
+    "width": 1125,
+    "height": 2436,
+    "reading": "猪肉目标温度选择",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P09.jpg",
+    "sha256": "8be546b5c0e1563f58ffa642986901d2be62edc04d126543474ae45f23d18936",
+    "width": 1125,
+    "height": 2436,
+    "reading": "禽类子类与目标温度选择",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/8be546b5c0e1563f58ffa642986901d2-1600.webp"
+  },
+  {
+    "file": "P10.jpg",
+    "sha256": "b2bd57a47b7bb5409c49645a4914438a9405bfe5bb55b6765e8b1013588e03fc",
+    "width": 1125,
+    "height": 2436,
+    "reading": "烹饪中总览与预估时间",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/b2bd57a47b7bb5409c49645a4914438a-1600.webp"
+  },
+  {
+    "file": "P11.jpg",
+    "sha256": "c12c0446537ed515cf2f175e797febbd78f908f16830d73995f669a8c1aa627c",
+    "width": 1125,
+    "height": 2436,
+    "reading": "结束烹饪二次确认",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/c12c0446537ed515cf2f175e797febbd-1600.webp"
+  },
+  {
+    "file": "P12.jpg",
+    "sha256": "922156f21924af6476dccddccf0935d0df0a726e34c50468ca02f41d5e38ac85",
+    "width": 1125,
+    "height": 2436,
+    "reading": "任务完成轻提示",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P13.jpg",
+    "sha256": "0e5cd3f31108144e3df3465f1d124ec6e93c79dad7995f0bc7b68d3b326098e7",
+    "width": 1125,
+    "height": 2436,
+    "reading": "烹饪中总览另一版式",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P14.jpg",
+    "sha256": "a1824b4b10c569a8380e2b981f7ce988633392620f02a89997437adb51b9fc3a",
+    "width": 1125,
+    "height": 2436,
+    "reading": "达到目标温度的总览",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P15.jpg",
+    "sha256": "ae0f01dd5094acca13e31c7fb04371a3a712382eb6429e81beb9cc410ae9b384",
+    "width": 1125,
+    "height": 2436,
+    "reading": "达温提醒与剩余提醒",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/ae0f01dd5094acca13e31c7fb04371a3-1600.webp"
+  },
+  {
+    "file": "P16.jpg",
+    "sha256": "69acc0b891b70dd2ffc229f5e97db17980f0ad88174f426ab77f7812c90166a4",
+    "width": 1125,
+    "height": 2436,
+    "reading": "冷却阶段目标展示",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P17.jpg",
+    "sha256": "dd78f7628f91403bc56fd18edf004733b2852f64a6ad5bd6f186b98bcbb8d910",
+    "width": 1125,
+    "height": 2436,
+    "reading": "达到冷却温度的总览",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P18.jpg",
+    "sha256": "81bfcbfca2739f8f393a6fac24afdf3b3d50b086264ab21200ec512b685a8751",
+    "width": 1125,
+    "height": 2436,
+    "reading": "冷却达温提醒",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P19.jpg",
+    "sha256": "5b396dfb6e2430cbe17cb5ff53923cb74c00f7ae0f4b6455a67b680016c3346d",
+    "width": 1125,
+    "height": 2436,
+    "reading": "纯定时提醒倒计时",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P20.jpg",
+    "sha256": "deecb210d7e4d60052a612ceb33dcca943a56155a1d627a5e202baa7893fafbf",
+    "width": 1125,
+    "height": 2436,
+    "reading": "完成摘要与添加照片",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/deecb210d7e4d60052a612ceb33dcca9-1600.webp"
+  },
+  {
+    "file": "P21.jpg",
+    "sha256": "576275dee512473baccac9da887405e6b4b55b72fe2eb19cd7675dbef3b4512b",
+    "width": 1125,
+    "height": 2436,
+    "reading": "升温曲线",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/576275dee512473baccac9da887405e6-1600.webp"
+  },
+  {
+    "file": "P22.jpg",
+    "sha256": "dd8281283a39552c91a6a86ff16e547cf3723e3f9805f72b9ee4198d1285e61d",
+    "width": 1125,
+    "height": 2436,
+    "reading": "过峰后回落曲线",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/dd8281283a39552c91a6a86ff16e547c-1600.webp"
+  },
+  {
+    "file": "P23.jpg",
+    "sha256": "77805c15cd77cf492cd86635f1145a3874c4f2dbb6679552732be49cf3c728d3",
+    "width": 1125,
+    "height": 2436,
+    "reading": "仅默认提醒的列表",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P24.jpg",
+    "sha256": "fac75860c2c114f52371cf928218f5311def9a69e79f108e4db8a6a69800bd39",
+    "width": 1125,
+    "height": 2436,
+    "reading": "新增提醒空值反馈",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/fac75860c2c114f52371cf928218f531-1600.webp"
+  },
+  {
+    "file": "P25.jpg",
+    "sha256": "1590d1e6ee3f37a286354e55c5074719a561d8cbc29e3526cb49db78ae35579b",
+    "width": 1125,
+    "height": 2436,
+    "reading": "两种提醒填值",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P26.jpg",
+    "sha256": "e6e0578afe3996ad112db0cb97d57c049d37d201ebc7fe4a4e655624dcef512f",
+    "width": 1125,
+    "height": 2436,
+    "reading": "多个定时提醒编辑",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P27.jpg",
+    "sha256": "ee47e274956818b4708accbdb8242db57747db0207f2355c80c6f12c23559c94",
+    "width": 1125,
+    "height": 2436,
+    "reading": "三种提醒活动列表",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/ee47e274956818b4708accbdb8242db5-1600.webp"
+  },
+  {
+    "file": "P28.jpg",
+    "sha256": "63bb786e54fc5f8ea985eaadb5137378cb7b3c65539ee21ae50c5c8cfdb6f0c3",
+    "width": 1125,
+    "height": 2436,
+    "reading": "删除提醒确认",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P29.jpg",
+    "sha256": "2fa038fb92df1908ce46c1365a5d13e611ed548eacf4094fee2a404324499da6",
+    "width": 1125,
+    "height": 2436,
+    "reading": "活动与失效提醒分组",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/2fa038fb92df1908ce46c1365a5d13e6-1600.webp"
+  },
+  {
+    "file": "P30.jpg",
+    "sha256": "78511d0c7874ee5e793bbe1fe47da8af387c9883b4b38f0d7db30bc2ac54418d",
+    "width": 1125,
+    "height": 2436,
+    "reading": "自定义目标温度",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P31.jpg",
+    "sha256": "e037a2b45f16f50b405883027e5179fbdeae8fac6ddcc5e0cc1eb4f44dee221f",
+    "width": 1125,
+    "height": 2436,
+    "reading": "启动时保存配置的选择",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/e037a2b45f16f50b405883027e5179fb-1600.webp"
+  },
+  {
+    "file": "P32.jpg",
+    "sha256": "a95b6029e52e66ceaf21056b5aab69360e541d2220abbbf33620855aa95d5a81",
+    "width": 1125,
+    "height": 2436,
+    "reading": "保存自定义配置成功",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P33.jpg",
+    "sha256": "020fc3fe7f669088b42abbb264cba96b49848a3edb795ddf8ffac337d03db351",
+    "width": 1125,
+    "height": 2436,
+    "reading": "命名自定义配置",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P34.jpg",
+    "sha256": "bad8efd2c38fb4a795693be77fa2516c81f6adf656c16ea87f235bee400e5bd1",
+    "width": 1125,
+    "height": 2436,
+    "reading": "另存为自定义配置确认",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P35.jpg",
+    "sha256": "2fcb7127af7d0963c010d835afc3fdd37a9d25c092355c6c10f0b13e800a1f21",
+    "width": 1125,
+    "height": 2436,
+    "reading": "自定义名称键盘展开",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P36.jpg",
+    "sha256": "cf876683d6c74fd5632a86170be2a9f9f0cfa1d2349c9812bf0d360569d1a018",
+    "width": 1125,
+    "height": 3051,
+    "reading": "自定义配置列表与选择",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/cf876683d6c74fd5632a86170be2a9f9-1600.webp"
+  },
+  {
+    "file": "P37.jpg",
+    "sha256": "15a85635300c19f77be5ae03163c18066bf93ff4602453bd9818c4a60c32dfa6",
+    "width": 1125,
+    "height": 3051,
+    "reading": "自定义配置管理/删除",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P38.jpg",
+    "sha256": "db923aaab0f5d20c8ee82daf414bb642c6da5267252dc189eb5bc833c4662cc4",
+    "width": 1125,
+    "height": 2436,
+    "reading": "更多入口与使用概况",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P39.jpg",
+    "sha256": "3ba885fa6ceb21166c6e73c96166c3cb8f4f6222ef3513b50b62773c78ffd6d3",
+    "width": 1125,
+    "height": 2436,
+    "reading": "应用设置",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/3ba885fa6ceb21166c6e73c96166c3cb-1600.webp"
+  },
+  {
+    "file": "P40.jpg",
+    "sha256": "392496b3230f5d8fc9da506061d5521d0160f705e74872209764d404433d8b4d",
+    "width": 1125,
+    "height": 2436,
+    "reading": "声音与振动设置",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P41.jpg",
+    "sha256": "6900f0fc182cf938572f0786401b340ed1098ad498a58bf9079957eda7747106",
+    "width": 1125,
+    "height": 2436,
+    "reading": "蓝牙与定位权限状态",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/6900f0fc182cf938572f0786401b340e-1600.webp"
+  },
+  {
+    "file": "P42.jpg",
+    "sha256": "04368ac27e5d117f2977f54ccefb9799864e55c53124249748de7efeedceab40",
+    "width": 1125,
+    "height": 2436,
+    "reading": "语言选择",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P43.jpg",
+    "sha256": "50f7a45555d127cff76401bbfeaf19eb298705c303c0b082bdaca041879e6d0c",
+    "width": 1125,
+    "height": 2436,
+    "reading": "关于与版本信息",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P44.jpg",
+    "sha256": "d75045acc22ed772c8489e7d9a2fcfa0ca9006df07c804c4b4d321053dff1ada",
+    "width": 1125,
+    "height": 2436,
+    "reading": "帮助页信号距离说明",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/d75045acc22ed772c8489e7d9a2fcfa0-1600.webp"
+  },
+  {
+    "file": "P45.jpg",
+    "sha256": "59811bf1d49ec5f28fd0bb14fb8646ab945bdec0ef82eedfd1a026f00b7ce543",
+    "width": 1125,
+    "height": 2436,
+    "reading": "历史烹饪列表",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/59811bf1d49ec5f28fd0bb14fb8646ab-1600.webp"
+  },
+  {
+    "file": "P46.jpg",
+    "sha256": "1d35a506d7915eb560dd0b74275269c3a5a9710a4a9cb7423efdfb4a5e27efee",
+    "width": 1125,
+    "height": 2436,
+    "reading": "记录详情照片为空",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P47.jpg",
+    "sha256": "223e04163da12cac82b25d728642b204ca25127c3ec01e1870ac8a94471a970f",
+    "width": 1125,
+    "height": 2436,
+    "reading": "记录详情包含照片",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/223e04163da12cac82b25d728642b204-1600.webp"
+  },
+  {
+    "file": "P48.jpg",
+    "sha256": "f75309876ad2b4ebf08fff6b40f41396067ee712d5add9eb6da876ceb779646c",
+    "width": 1125,
+    "height": 2436,
+    "reading": "分享内容开关",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P49.jpg",
+    "sha256": "4ec69860cdaefaca348986efda0fda302b9c7e619ff85d77e4f3ac0db40be5b4",
+    "width": 1125,
+    "height": 2436,
+    "reading": "分享全部照片",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P50.jpg",
+    "sha256": "02fde8f055e0e6399aeace3e1d7fc0a19f90cb469fb681234e91e9708b78fb5c",
+    "width": 1125,
+    "height": 2436,
+    "reading": "分享选取部分照片",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/02fde8f055e0e6399aeace3e1d7fc0a1-1600.webp"
+  },
+  {
+    "file": "P51.jpg",
+    "sha256": "f3e581648508757ba0fb7fe95efe0fb1d485c2bcb3d5a2e553d9c62009813202",
+    "width": 1125,
+    "height": 2436,
+    "reading": "AI 空态及示例提问",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/f3e581648508757ba0fb7fe95efe0fb1-1600.webp"
+  },
+  {
+    "file": "P52.jpg",
+    "sha256": "54e05b3c06946fffbf2daa3638a91ad70758e6cbc982606d4342240933826eb7",
+    "width": 1125,
+    "height": 2436,
+    "reading": "AI 已发送提问",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P53.jpg",
+    "sha256": "722d0c5f031b5b8812c5775f9c33741e883a5313bb635e44aa843ea6961d94c6",
+    "width": 1125,
+    "height": 2733,
+    "reading": "AI 结构化结果与应用",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/722d0c5f031b5b8812c5775f9c33741e-1600.webp"
+  },
+  {
+    "file": "P54.jpg",
+    "sha256": "3e53a9a50a4d1f0f93880d6b78cffab7b99b71581ae0f7766ab1888945f7f4b6",
+    "width": 1125,
+    "height": 2436,
+    "reading": "AI 长文本输入及键盘",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P55.jpg",
+    "sha256": "1c4aa200831df0d4631d1ec02bc902ae8dab73042cfaf8adf5e4b2189a8c790e",
+    "width": 1125,
+    "height": 2436,
+    "reading": "AI 空输入禁用发送",
+    "included": false,
+    "reason": "同一任务的补充状态或重复版式，分析中归并，原稿保留",
+    "src": null
+  },
+  {
+    "file": "P56.jpg",
+    "sha256": "4cdfe370f58efc9dbf3e21765723814c8ba452aaf2a5f088f69e4e86bc3ca05f",
+    "width": 1125,
+    "height": 2436,
+    "reading": "未登录的 AI 历史",
+    "included": true,
+    "reason": "用于正文对应任务分析",
+    "src": "/uploads/4cdfe370f58efc9dbf3e21765723814c-1600.webp"
+  },
+  {
+    "file": "P57.jpg",
+    "sha256": "46f14622df9c9a9d290dcec3adf6646553d028787491f3446c78735658ab6245",
+    "width": 1125,
+    "height": 2436,
+    "reading": "登录空表单",
+    "included": false,
+    "reason": "登录注册辅助状态；避免重复表单及展示填值样例",
+    "src": null
+  },
+  {
+    "file": "P58.jpg",
+    "sha256": "a09f821fefeb976f48f295a75e08cb1ab85164b20e39b2e49da8932a079dad0c",
+    "width": 1125,
+    "height": 2436,
+    "reading": "登录填值样例",
+    "included": false,
+    "reason": "登录注册辅助状态；避免重复表单及展示填值样例",
+    "src": null
+  },
+  {
+    "file": "P59.jpg",
+    "sha256": "1e592fadc6b3924cd063f40d645a6e2750cde182a6f525b9f4f44abae29cf24d",
+    "width": 1125,
+    "height": 2436,
+    "reading": "登录错误反馈",
+    "included": false,
+    "reason": "登录注册辅助状态；避免重复表单及展示填值样例",
+    "src": null
+  },
+  {
+    "file": "P60.jpg",
+    "sha256": "d3701406f658072c20140a0a96677570b4361d2999591f57abe467afc317418f",
+    "width": 1125,
+    "height": 2436,
+    "reading": "注册空表单",
+    "included": false,
+    "reason": "登录注册辅助状态；避免重复表单及展示填值样例",
+    "src": null
+  },
+  {
+    "file": "P61.jpg",
+    "sha256": "03df20139b20208c3499bc2188d3159c1237188a052c28afa2d4a2fd647750bb",
+    "width": 1125,
+    "height": 2436,
+    "reading": "注册格式与确认错误样例",
+    "included": false,
+    "reason": "登录注册辅助状态；避免重复表单及展示填值样例",
+    "src": null
+  },
+  {
+    "file": "P62.jpg",
+    "sha256": "fe25380143e8228f511e38dcf641fdd75f2444d726e010b200bafe6d8b026899",
+    "width": 1125,
+    "height": 2436,
+    "reading": "注册确认密码错误样例",
+    "included": false,
+    "reason": "登录注册辅助状态；避免重复表单及展示填值样例",
+    "src": null
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "michaels-buyer-app",
+    "src": "/uploads/46253dcc590434a4c6f39b6391223a99-1600.webp",
+    "source": "images/project-michaels-buyer-app/c26de469e478-michaels-app-001.webp",
+    "caption": "五个入口，连接不同的购物时刻",
+    "analysis": "展示板从首页、商品浏览到 Rewards、购物车和账户依次展开。首页具有门店切换信息，商品页以品类与内容组织发现，购物车区分当前待购和稍后保存，账户承接订单与优惠入口。统一的底部导航提供回到主要任务的线索；稿件版本中部分入口名称不同，不能直接当作同一版本的连续操作截图。"
+  },
+  {
+    "slug": "michaels-buyer-app",
+    "src": "/uploads/e8ce11dab9be6c3f109b45605a9d0834-1600.webp",
+    "source": "images/project-michaels-buyer-app/2e276b83bfb5-michaels-app-003.webp",
+    "caption": "权益、认证与取货 / 原始界面索引",
+    "analysis": "整板左侧是会员奖励、条码与优惠券；中间包含教师认证材料上传、购物车和提交结果；右侧展示门店取货、车位与车辆信息，以及教师优惠介绍和空购物车。不同画面支持不同任务，排布顺序不代表实际流程顺序。下文将这些局部信息分别拆解，整图可打开查看。"
+  },
+  {
+    "slug": "michaels-buyer-app",
+    "src": "/uploads/b8963ab91b9608ae8feb63282bb59fec-1600.webp",
+    "source": "images/project-michaels-buyer-app/5b0da5ebd8b6-michaels-app-002.webp",
+    "caption": "从位置引导到结果反馈的视觉素材",
+    "analysis": "上排以地图、车辆、购物车及取货场景解释服务情境；下排通过手机上的错误、购物与成功符号呈现反馈，再以礼盒轮廓组织权益信息。红色在品牌与主要动作中重复出现，辅助色帮助区分场景。相同的品牌感不意味着每一种反馈都只能靠颜色识别。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/43aa2f9335d41092e0497a5c0dc60e63-1600.webp",
+    "source": "images/project-michaels-ops-management-system/cd86bd324006-主页02.webp",
+    "caption": "应用中心 / 聚合入口而不混合任务",
+    "analysis": "首页将前端告警监控、离线包管理、数据库管理并列展示，顶部保留应用中心、工作空间和账户入口。进入具体工具后仍能辨认所处环境，是这类内部平台保持方向感的基础。现有图片只支持入口与框架层面的分析，不能据此补全另外两项工具的能力。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/bdf6e5cd8f08457df65d4941856066f7-1600.webp",
+    "source": "images/project-michaels-ops-management-system/5b5ab2a0d9ab-告警列表01.webp",
+    "caption": "告警列表 / 等级、环境与状态共同辅助判断",
+    "analysis": "列表左侧是等级与环境，随后是模块、处理状态及标识；右侧保留追踪、处理和更多操作。搜索及环境、模块、等级筛选位于列表上方。原稿同时使用 P1—P5 文字与色块表示级别，用 Open / Closed 区分处理状态，避免把“严重程度”直接当作“是否处理”。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/e8c2411b1cdab6f937aec5dc7dbdacb2-1600.webp",
+    "source": "images/project-michaels-ops-management-system/aff5ca9e0edd-告警列表05.webp",
+    "caption": "告警详情 / 从摘要进入设备、行为与报文",
+    "analysis": "顶部摘要说明模块、环境和等级，主体依次呈现告警信息、设备信息、页面性能、补充数据、用户行为记录和完整报文。操作留在页面上方，使查看证据与处理动作同处一个上下文。设备信息和日志在这里用于解释事件，不应被当作与告警无关的独立数据堆叠。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/1811e345d183270020526b21843d7f26-1600.webp",
+    "source": "images/project-michaels-ops-management-system/dd1732542c00-模块看板01.webp",
+    "caption": "模块看板 / 关注范围与全量目录",
+    "analysis": "上半区展示“我的关注”，每张卡片显式带出模块和环境；下方以表格保留全部看板及关注操作。关注区适合反复查看，完整目录承接偶发检索。相同模块在 QA、DEV 或 PROD 下应被识别为不同监测范围。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/8dda1c9d61a92828fb466bf4ec4e33c8-1600.webp",
+    "source": "images/project-michaels-ops-management-system/e16e20c8f3af-页面看板01.webp",
+    "caption": "页面看板 / 以业务页面组织监测对象",
+    "analysis": "页面卡片按 Classes & Events、Projects、Rewards、PLP、PDP 等名称组织 URL，并带环境标识。这种业务名称比裸链接更容易定位。URL 截断后仍需可查看完整内容；右侧数字的含义、周期与排序口径也应解释清楚。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/999ac3f3b3e09a4b5faca7ea53d15c13-1600.webp",
+    "source": "images/project-michaels-ops-management-system/e27c04c6f9de-模块看板02.webp",
+    "caption": "模块详情 / 总量、趋势与分布分层",
+    "analysis": "顶部指标卡概括当前状态，中部用每日柱图观察变化，底部提供 Top 10 横向比较。图中多组 Top 10 使用重复标题与样例数据，需要在正式交付时明确各自维度。没有统计周期、分母和更新时间时，醒目的数值仍不足以支持判断。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/dfe47db473f05c2a67530b9995dd0a72-1600.webp",
+    "source": "images/project-michaels-ops-management-system/a74ca64012f6-页面看板02.webp",
+    "caption": "页面性能 / 把耗时与相关事件放在一起",
+    "analysis": "顶部展示 TTFB、DOM 解析和页面平均加载时间，下方并列耗时区间分布与页面告警列表。它将“页面变慢”和“出现什么错误”放在同一视野，但二者同时出现并不等于存在因果关系。稿件中的毫秒、秒数与分布仅为设计示例。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/9e3c356bd2c7dbb7b6bda1d68dd19cfc-1600.webp",
+    "source": "images/project-michaels-ops-management-system/53e15e7bce5c-初始数据配置01.webp",
+    "caption": "配置目录 / 环境、模块与规则各自成组",
+    "analysis": "三组表格分别维护环境、模块和规则，并保留创建、更新时间及编辑者。规则表在类型、数值和表达式之外给出行为描述，使维护者不必只依靠代码式字段理解作用。图中的时间过滤、高危追踪和累计过滤可作为规则语义的讨论样例。"
+  },
+  {
+    "slug": "michaels-ops-management-system",
+    "src": "/uploads/d9edf796c5f786b6d111a1f106d7537d-1600.webp",
+    "source": "images/project-michaels-ops-management-system/393ca4a580f6-初始数据配置02.webp",
+    "caption": "就地新增 / 表单靠近对应的配置表",
+    "analysis": "展开的表单紧贴所属配置组，环境与模块使用不同字段，规则增加类型、数值、表达式和说明。这样的邻近关系能让用户知道新增内容将进入哪张表。需要进一步约束的是必填、格式、唯一性和受影响范围，并在提交位置反馈结果。"
+  },
+  {
+    "slug": "michaels-official-website-new-platform",
+    "src": "/uploads/51b9d0f94bc769d9090b39f85cced89b-1600.webp",
+    "source": "images/project-michaels-official-website-new-platform/a6b767245304-Michaels_PLP_break-points.webp",
+    "caption": "四档布局 / 保留内容优先级，改变组织方式",
+    "analysis": "原始布局板标注 1440、1024、640、375 四个宽度，展示导航、分类、活动内容与商品集合在不同空间下的重排。宽屏保留侧边分类，小屏收拢导航，活动图片与文字改为纵向关系。该板含占位内容，是布局规则的证据，不是完整移动端高保真验收结果。"
+  },
+  {
+    "slug": "michaels-official-website-new-platform",
+    "src": "/uploads/8a43ffb80b5f583ac515e38cee06e746-1600.webp",
+    "source": "images/project-michaels-official-website-new-platform/a498049192db-Michaels_PLP-scaled.webp",
+    "caption": "商品列表 / 从图片比较进入条件筛选",
+    "analysis": "列表以商品图片建立第一印象，配合颜色、规格数量、评价、价格、优惠及收货可用性；左侧将品类、配送、活动和属性筛选分组。原稿商品名称与价格存在重复占位，展示的是字段关系。实际内容越复杂，越需要控制次要促销信息的数量与重复。"
+  },
+  {
+    "slug": "michaels-official-website-new-platform",
+    "src": "/uploads/386f19db109f2c161d309e4d69b7d490-1600.webp",
+    "source": "images/project-michaels-official-website-new-platform/886a6b9e8f75-Michaels_PDP-768x2580.webp",
+    "caption": "商品详情 / 把选择与购买放在同一上下文",
+    "analysis": "上部并列商品图、规格与价格、配送或自提选择及购买操作；下部以说明、配送退换、使用信息和评论补充判断。相关项目和推荐帮助探索用途，但不应把规格、限制条件和核心操作推得过远。原稿部分商品文案与配图是占位组合，不将其解读为真实商品规则。"
+  },
+  {
+    "slug": "michaels-official-website-new-platform",
+    "src": "/uploads/b82eb137cf8fce28456d634f6ebd9de1-1600.webp",
+    "source": "images/project-michaels-official-website-new-platform/dae20ac1191e-Michaels_Cart-scaled.webp",
+    "caption": "购物车 / 分清卖家、商品与收货方式",
+    "analysis": "原稿先以 Michaels 和 Marketplace 店铺分组，商品行内提供取货、配送到家或当日送达选项，右侧汇总金额。下方的 Save For Later 与当前待结算商品分开。分组能解释为什么不同商品有不同配送条件，但分组标题、运费和免运门槛必须清楚指向各自范围。"
+  },
+  {
+    "slug": "michaels-official-website-new-platform",
+    "src": "/uploads/5e5893527fa6af918c3d7b30e24224e6-1600.webp",
+    "source": "images/project-michaels-official-website-new-platform/3d2cff35953b-Michaels_Guest-Checkout-Shipping-Scenario-scaled.webp",
+    "caption": "Getting your Order / 联系信息与履约分组",
+    "analysis": "上方收集联系资料，下方分别列出 Pick Up、Ship to Home 和不同卖家的配送安排；取货组显示门店与取货人，配送组显示服务、费用和预计时间。可见的设计思路是把选择留在受影响的商品旁边。稿件中部分提示仍为占位，不能把正常态表单当作完整输入校验方案。"
+  },
+  {
+    "slug": "michaels-official-website-new-platform",
+    "src": "/uploads/8b7c87cf250239328e50636fdbb6000a-1600.webp",
+    "source": "images/project-michaels-official-website-new-platform/71ad0ae8201d-Michaels_Preview-and-Pay-Guest-Gift-Card-Default-scaled.webp",
+    "caption": "Payment & Order Review / 选择支付，同时复核订单",
+    "analysis": "原稿上部陈列支付方式和礼品卡入口，下部保留取货、地址与各组配送摘要，并提供对应编辑入口。支付动作与订单摘要并列，方便用户提交前复核。画面只能证明这些选项的设计呈现，不能证明支付渠道接入或优惠叠加规则已经上线。"
+  },
+  {
+    "slug": "michaels-official-website-new-platform",
+    "src": "/uploads/0e263849023679a4edc7ba767048f10a-1600.webp",
+    "source": "images/project-michaels-official-website-new-platform/b2411029cf1f-Michaels_Order-Confirmation-scaled.webp",
+    "caption": "Order Confirmation / 按接下来要做的事组织结果",
+    "analysis": "页面先给出订单已提交与邮件确认说明，随后分别展示当日送达、门店取货和配送信息。下方继续保留会员招募、推荐及活动内容。它体现了交易完成后继续经营关系的意图，但确认状态、订单标识和领取安排应拥有更高的阅读优先级。"
+  }
+]

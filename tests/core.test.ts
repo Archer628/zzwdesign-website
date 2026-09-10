@@ -1,0 +1,12 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {createHmac} from 'node:crypto';
+import {validateWork,validateSettings,mediaPattern} from '../src/lib/validation';
+import {slugify} from '../src/lib/content';
+import {validToken,token} from '../src/lib/auth';
+import {limitedJson,limitedBody} from '../src/lib/request-body';
+const sample={title:'测试作品',slug:'test',cover:'/uploads/'+'a'.repeat(32)+'-1600.webp',images:[],imageCaptions:[],summary:'内容',description:[{type:'paragraph',text:'<script>alert(1)</script>'}],tags:['UI'],year:'2026',link:'',order:0,published:true};
+test('work validation preserves plain text and rejects invalid publishing and executable URLs',()=>{assert.equal(validateWork(sample).title,'测试作品');assert.ok(validateWork(sample).description.includes('<script>'));assert.throws(()=>validateWork({...sample,link:'javascript:alert(1)'}));assert.throws(()=>validateWork({...sample,cover:''}));assert.throws(()=>validateWork({...sample,description:[{type:'html',text:'x'}]}));assert.throws(()=>validateWork({...sample,slug:'../../x'}));assert.throws(()=>validateWork({...sample,order:1.5}));});
+test('media paths and settings cannot point outside project uploads',()=>{assert.ok(!mediaPattern.test('/uploads/../../.env'));assert.ok(!mediaPattern.test('https://example.com/a.webp'));assert.throws(()=>validateSettings({title:'x',subtitle:'y',worksLabel:'作品',aboutLabel:'关于',mediaMode:'video',mediaPath:sample.cover}));assert.equal(slugify('UI / 设计案例'),'ui-设计案例');});
+test('signed sessions reject tampering, expiry and credential rotation',()=>{process.env.ADMIN_USER='test';process.env.ADMIN_PASSWORD='test-only-password';process.env.SESSION_SECRET='test-only-secret-'.repeat(3);const t=token();assert.ok(validToken(t));assert.ok(!validToken(t+'x'));const body=Buffer.from(JSON.stringify({user:'test',exp:1})).toString('base64url');const sig=createHmac('sha256',process.env.SESSION_SECRET).update(body+'|'+process.env.ADMIN_PASSWORD).digest('base64url');assert.ok(!validToken(body+'.'+sig));process.env.ADMIN_PASSWORD='rotated-test-password';assert.ok(!validToken(t));});
+test('body limits apply even without Content-Length',async()=>{await assert.rejects(()=>limitedBody(new Request('http://localhost',{method:'POST',body:'x'.repeat(20)}),10));await assert.rejects(()=>limitedJson(new Request('http://localhost',{method:'POST',body:'null'})));assert.deepEqual(await limitedJson(new Request('http://localhost',{method:'POST',body:'{"a":1}'})),{a:1});});

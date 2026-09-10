@@ -1,0 +1,14 @@
+# Typeface notices
+
+This website uses Nunito Sans for English and MiSans for Chinese.
+本站使用 Nunito Sans 英文字体与 MiSans 中文字体。
+
+Nunito Sans: Copyright 2016 The Nunito Sans Project Authors. SIL Open Font License 1.1. See NunitoSans-OFL.txt. The unmodified Latin variable WOFF2 is supplied by Google Fonts (fonts.gstatic.com), version v19.
+
+MiSans: Xiaomi Inc. / 小米科技有限责任公司. Regular and Bold WOFF2 files are copied unchanged from the official MiSans package: https://hyperos.mi.com/font-download/MiSans.zip . See MiSans-License.pdf for the supplied intellectual property license. These files are bundled only as resources of this website, not as a standalone font product.
+
+Official pages:
+https://fonts.google.com/specimen/Nunito+Sans
+https://hyperos.mi.com/font/en/download/
+
+MiSans contains the complete official character set; fonts are not subsetted, modified, or renamed internally. The two Chinese WOFF2 files total approximately 10 MB and are cached by the browser. font-display:swap keeps text visible during the first download.

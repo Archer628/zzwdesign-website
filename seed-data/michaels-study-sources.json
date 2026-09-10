@@ -1,0 +1,162 @@
+[
+  {
+    "src": "/uploads/a0b74a031cdb0f63581e3eec62cfc0d5-1600.webp",
+    "text": "一笔交易，跨越顾客与门店两侧",
+    "source": "images/project-michaels-self-checkout/92d3838535b5-Michaels-Self-Checkout-00-scaled.webp",
+    "generated": false,
+    "sourceSha256": "a0b74a031cdb0f63581e3eec62cfc0d5ceeff6569460f975e7019c071e1cd16f",
+    "mediaSha256": "c489bdede285cfa58f52acd2f11542448130a7604516b4f1e17eec013d869437"
+  },
+  {
+    "src": "/uploads/4952989b76cf4167847e325897800a24-1600.webp",
+    "text": "小额购买：让熟悉的人直接开始",
+    "source": "evidence/michaels-visual/persona-young.png",
+    "generated": true,
+    "sourceSha256": "4952989b76cf4167847e325897800a24f9323d40a94044316708b3bf763e5ec3",
+    "mediaSha256": "51a11b92527c632965524933b2917d8ce462c2304b32d01f990ed191812d08be"
+  },
+  {
+    "src": "/uploads/ba4d87e38f769e345ead1c104785c0fb-1600.webp",
+    "text": "谨慎操作：每一步都有可理解的回应",
+    "source": "evidence/michaels-visual/persona-senior.png",
+    "generated": true,
+    "sourceSha256": "ba4d87e38f769e345ead1c104785c0fb78c12d9d6ba7cbd5792eda8997dc9ae5",
+    "mediaSha256": "a4ad7ce7e201969ec7d28667d5a9907816dcfab177eed78c91643a6fbda9f3a3"
+  },
+  {
+    "src": "/uploads/2b0a21839a47098dd477d0a55df4b1bb-1600.webp",
+    "text": "批量采购：先确认权益，再确认付款",
+    "source": "evidence/michaels-visual/persona-teacher.png",
+    "generated": true,
+    "sourceSha256": "2b0a21839a47098dd477d0a55df4b1bb175a958fbf7d3db953fbfc78de575e78",
+    "mediaSha256": "f224ee562d3e4f97c685a875cd675126263b6cce560dc3a308691e5e41e16830"
+  },
+  {
+    "src": "/uploads/e99110f3c66fbceca3bdf81fb1b4a1e5-1600.webp",
+    "text": "横屏：提示直接扫描商品",
+    "source": "images/project-michaels-self-checkout/5583bd7be2c7-michaels-self-checkout-step01-2.webp",
+    "generated": false,
+    "sourceSha256": "e99110f3c66fbceca3bdf81fb1b4a1e5aa045656eb280ea663db97b2bdf0ee72",
+    "mediaSha256": "a71d44b3fdb3d06820d850f7d4839bad033e116139faa8dc386fce29a5c1ac88"
+  },
+  {
+    "src": "/uploads/c5972c96ed58e995e611bca1012d8e12-1600.webp",
+    "text": "竖屏：按钮写着点击开始",
+    "source": "images/project-michaels-self-checkout/5b6fe20b9f0e-self-checkout-standup-01.webp",
+    "generated": false,
+    "sourceSha256": "c5972c96ed58e995e611bca1012d8e12cb17e7cc7c253052f918c1cfcd89ef0c",
+    "mediaSha256": "2909ea910b4bb496b5a1354078c449ae5485517f4dafa4e0046e6650e1487de4"
+  },
+  {
+    "src": "/uploads/017a1009c5bd737787f882e4ce0f6851-1600.webp",
+    "text": "横屏：清单、摘要与操作分工",
+    "source": "images/project-michaels-self-checkout/9aa58e1ffd76-michaels-self-checkout-step02-2.webp",
+    "generated": false,
+    "sourceSha256": "017a1009c5bd737787f882e4ce0f6851198618879f553a4d8b923a748d3d9004",
+    "mediaSha256": "3a2490d434485a64f8d76b7491b85c5efb4a69e0fa2b90b4506d283c9801a3b8"
+  },
+  {
+    "src": "/uploads/4d264c39e3f3666409afa78048224165-1600.webp",
+    "text": "竖屏：把最终应付留在操作附近",
+    "source": "images/project-michaels-self-checkout/fa2cc42c5d35-self-checkout-standup-02.webp",
+    "generated": false,
+    "sourceSha256": "4d264c39e3f3666409afa78048224165e2fd48836d3b40fa7f485fb7c1c18c14",
+    "mediaSha256": "1c7cd7c68e25386a91ab878c83195c7d1c3ed72bf5cc31f66b7eed0c63728327"
+  },
+  {
+    "src": "/uploads/739def6a158d8a22153928735680134a-1600.webp",
+    "text": "用设备示意承接屏幕之外的动作",
+    "source": "images/project-michaels-self-checkout/9f794de81a44-michaels-self-checkout-step03-2.webp",
+    "generated": false,
+    "sourceSha256": "739def6a158d8a22153928735680134a160875b1d49ceeaeb80b2e0c1ccf506e",
+    "mediaSha256": "ef73bf5b3f4a7d30a0427e28edfe40f96485886ead355d12caa8f2c0c1c381a7"
+  },
+  {
+    "src": "/uploads/c0443574bb27e44917a425aad6817601-1600.webp",
+    "text": "支付引导：从触屏转向刷卡机",
+    "source": "images/project-michaels-self-checkout/c30882249929-self-checkout-standup-03.webp",
+    "generated": false,
+    "sourceSha256": "c0443574bb27e44917a425aad6817601be7335a346bd5b36cced5d6c21d90a8e",
+    "mediaSha256": "118abf78cc194bcab9106cf05ae7ca29237a2e4fa76ba2dae5da985bb07f0d14"
+  },
+  {
+    "src": "/uploads/6d0c8a4c29449cc2a685ebc322dda110-1600.webp",
+    "text": "礼品卡确认：区分两种余额",
+    "source": "images/project-michaels-self-checkout/3f5b517665a4-self-checkout-standup-15.webp",
+    "generated": false,
+    "sourceSha256": "6d0c8a4c29449cc2a685ebc322dda1109639933dcde1fa8ecfc3947830872752",
+    "mediaSha256": "5bb9698a6d2ca96ccaa33ad55af5e52e87d9c1cdf3d7d2113f6ff702e7c8b1ea"
+  },
+  {
+    "src": "/uploads/1ed540ac7a3ac5fd97d35137efb3c356-1600.webp",
+    "text": "先表达完成，再询问如何保留凭证",
+    "source": "images/project-michaels-self-checkout/d438101de0fa-michaels-self-checkout-step04-2.webp",
+    "generated": false,
+    "sourceSha256": "1ed540ac7a3ac5fd97d35137efb3c3568702d3db9d08f86b0bd652fa532981cf",
+    "mediaSha256": "ea786fd86b7b882aed75c098f4f9374eac9f3339b4c2176a83ef76a166caae2b"
+  },
+  {
+    "src": "/uploads/50904efaf268ca2571a44af4fc69d7a0-1600.webp",
+    "text": "选择小票",
+    "source": "images/project-michaels-self-checkout/33e98acb50fc-self-checkout-standup-04.webp",
+    "generated": false,
+    "sourceSha256": "50904efaf268ca2571a44af4fc69d7a05f955ac368ebeee8d654370787afa6a0",
+    "mediaSha256": "8b4e5a700996e00a85bbf7516e14e4c7ef64c289deee76868b2995eaded55edd"
+  },
+  {
+    "src": "/uploads/8f80d09e84717232552e3d45d0372e6a-1600.webp",
+    "text": "电子小票已发送",
+    "source": "images/project-michaels-self-checkout/00ed8fbb012a-self-checkout-standup-05.webp",
+    "generated": false,
+    "sourceSha256": "8f80d09e84717232552e3d45d0372e6a76330d45125e62f37a7e4183f7a47f5b",
+    "mediaSha256": "2b6829f8ab6c71865152f70dfb3744c5fe2c076c144470872fa03a30e6c4e3f1"
+  },
+  {
+    "src": "/uploads/96d0381f5d218c389aaee2ccfd562045-1600.webp",
+    "text": "纸质小票打印中",
+    "source": "images/project-michaels-self-checkout/202d2fbb1b2d-self-checkout-standup-06.webp",
+    "generated": false,
+    "sourceSha256": "96d0381f5d218c389aaee2ccfd562045b9a6c488f49fd73a374f209fbfdd829a",
+    "mediaSha256": "c4830e54140653b8eaa53a5e3376e7d6f6946208ef602245a6e2ee7c959cf795"
+  },
+  {
+    "src": "/uploads/ce64aae040968e9f68dd71de7a0d4d6b-1600.webp",
+    "text": "顾客侧：定位阻塞交易的商品",
+    "source": "images/project-michaels-self-checkout/f2494f282eb1-self-checkout-standup-08.webp",
+    "generated": false,
+    "sourceSha256": "ce64aae040968e9f68dd71de7a0d4d6bc1233a1a21fb3542b97829452c9ab6ee",
+    "mediaSha256": "158dfb8b0df33054100d0636c7c8641cb9a9be0783e7c36c27be6e38a904fed6"
+  },
+  {
+    "src": "/uploads/16b3c157b9d972332376be9322d40ea7-1600.webp",
+    "text": "店员侧：修改需要有对象和原因",
+    "source": "images/project-michaels-self-checkout/81d2716bc86f-self-checkout-standup-10.webp",
+    "generated": false,
+    "sourceSha256": "16b3c157b9d972332376be9322d40ea7675d7cb5f55edcbba670df5f7806fc0c",
+    "mediaSha256": "d81c4f73da9d8dd12630a5e6d0095a53d5b68216a92342fd3c7fc94f06ae6dde"
+  },
+  {
+    "src": "/uploads/ff084b5b14c0bc1b3f072ab585423564-1600.webp",
+    "text": "设备信息：先认清正在处理哪一台",
+    "source": "images/project-michaels-self-checkout/fa3b7d29f815-self-checkout-standup-11.webp",
+    "generated": false,
+    "sourceSha256": "ff084b5b14c0bc1b3f072ab585423564e94f557c84101b23c377e78ec4733b90",
+    "mediaSha256": "dba9ed5b8b352d3f9634079bca7d2a5eb7ade93ca0db5ec5785bc27baeb173d5"
+  },
+  {
+    "src": "/uploads/da3d136d567d06cea977090de88c803b-1600.webp",
+    "text": "补打小票：找到交易后再打印",
+    "source": "images/project-michaels-self-checkout/72c2845ee3ce-self-checkout-standup-12.webp",
+    "generated": false,
+    "sourceSha256": "da3d136d567d06cea977090de88c803b8a97c770ef31622ca53bc805de19affa",
+    "mediaSha256": "50743fe24caaae55fd971081ce6c6737799f378bbe174fde21ac62da2a7242d0"
+  },
+  {
+    "src": "/uploads/381d6ea0d510689935f71269c52c21eb-1600.webp",
+    "text": "礼品卡重新激活：保持任务名称准确",
+    "source": "images/project-michaels-self-checkout/af7be498fab9-self-checkout-standup-13.webp",
+    "generated": false,
+    "sourceSha256": "381d6ea0d510689935f71269c52c21ebf18feca2c8205ae6e98515fce84c4b02",
+    "mediaSha256": "b5e9fe7d1554f0fc3422796fc4b122e9ed7894118184abde9b682da906cabaf6"
+  }
+]
