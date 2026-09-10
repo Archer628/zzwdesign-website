@@ -34,6 +34,7 @@ html{scrollbar-width:none}html::-webkit-scrollbar{display:none}
 .button.primary{background:var(--neon)}
 @media(hover:hover) and (pointer:fine){.button:hover{background:#ededed;transform:none}.button.primary:hover{background:var(--neon);box-shadow:var(--card-shadow-hover)}}
 .waterfall{--card-gap:22px;grid-column:4;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--card-gap);padding:0 18px;min-width:0;position:relative;isolation:isolate;overflow:hidden;overflow:clip;background:var(--paper);border-radius:24px;scrollbar-width:none}
+.waterfall{touch-action:pan-x pinch-zoom}
 .waterfall::-webkit-scrollbar{display:none}
 .waterfall-column{min-width:0}
 .waterfall-track{will-change:transform}

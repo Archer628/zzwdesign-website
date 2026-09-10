@@ -10,8 +10,8 @@ function Column({items,staggered=false}:{items:WorkView[];staggered?:boolean}) {
   const element=track.current;
   if(!element)return;
   const region=element.closest('.waterfall')!;
-  let animation:Animation|undefined,frame=0,last=0,rate=0,impulse=0;
-  let touch:{x:number;y:number;lastY:number}|undefined,dragging=false,suppressClickUntil=0;
+  let animation:Animation|undefined,frame=0,last=0,rate=0,impulse=0,momentum=0;
+  let touch:{x:number;y:number;lastY:number;braking:boolean;samples:{y:number;time:number}[]}|undefined,dragging=false,suppressClickUntil=0;
   function measure(){
    const progress=animation?Number(animation.currentTime||0)/Number(animation.effect?.getTiming().duration||1)%1:0;
    animation?.cancel();
@@ -26,9 +26,12 @@ function Column({items,staggered=false}:{items:WorkView[];staggered?:boolean}) {
   }
   function tick(now:number){
    const dt=Math.min((now-(last||now))/1000,.05);last=now;
-   const stopped=document.hidden||dragging;
+   const stopped=document.hidden||!!touch;
    impulse*=Math.exp(-dt/.8);
-   rate=dragging?0:rate+((stopped?0:1+impulse)-rate)*(1-Math.exp(-dt/.18));
+   // Touch inertia has its own velocity, independent of the desktop wheel's speed cap.
+   if(stopped){momentum=0;rate=touch?0:rate+(0-rate)*(1-Math.exp(-dt/.18));}
+   else if(Math.abs(momentum)>8){momentum*=Math.exp(-dt/.52);rate=momentum/28;}
+   else{momentum=0;rate+=((1+impulse)-rate)*(1-Math.exp(-dt/.18));}
    if(animation){
     const duration=Number(animation.effect!.getTiming().duration);
     const time=Number(animation.currentTime||0);
@@ -41,14 +44,31 @@ function Column({items,staggered=false}:{items:WorkView[];staggered?:boolean}) {
    const e=event as WheelEvent;
    if(e.ctrlKey||Math.abs(e.deltaX)>Math.abs(e.deltaY))return;
    e.preventDefault();
+   momentum=0;
    const pixels=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?region.clientHeight:1);
    impulse=Math.max(-12,Math.min(12,impulse+pixels/75));
   }
-  function release(){if(dragging)suppressClickUntil=Date.now()+500;touch=undefined;dragging=false;}
+  function release(event?:Event){
+   momentum=0;
+   if(dragging||touch?.braking)suppressClickUntil=Date.now()+500;
+   if(dragging&&touch){
+    const first=touch.samples[0],end=touch.samples[touch.samples.length-1];
+    if(event?.type==='touchend'&&performance.now()-end.time<100&&end.time>first.time){
+     momentum=Math.max(-6000,Math.min(6000,(end.y-first.y)/(end.time-first.time)*1000));
+    }
+   }
+   touch=undefined;dragging=false;
+   rate=momentum/28;
+   if(animation)animation.playbackRate=rate;
+  }
   function touchStart(event:Event){
    const e=event as TouchEvent;
+   const braking=Math.abs(momentum)>8;
    release();suppressClickUntil=0;
-   if(e.touches.length===1){const p=e.touches[0];touch={x:p.clientX,y:p.clientY,lastY:p.clientY};}
+   if(e.touches.length===1){
+    const p=e.touches[0];touch={x:p.clientX,y:p.clientY,lastY:p.clientY,braking,samples:[{y:p.clientY,time:performance.now()}]};
+    impulse=0;
+   }
   }
   function touchMove(event:Event){
    const e=event as TouchEvent;
@@ -62,7 +82,14 @@ function Column({items,staggered=false}:{items:WorkView[];staggered?:boolean}) {
    if(!e.cancelable){release();return;}
    e.preventDefault();dragging=true;impulse=0;rate=0;suppressClickUntil=Date.now()+500;
    animation.playbackRate=0;
-   animation.currentTime=Number(animation.currentTime||0)+(p.clientY-touch.lastY)/28*1000;
+   const delta=p.clientY-touch.lastY,now=performance.now(),samples=touch.samples;
+   // A direction change discards the previous stroke so a quick reversal follows the finger.
+   if(samples.length>1&&delta*(samples[samples.length-1].y-samples[samples.length-2].y)<0)touch.samples=[samples[samples.length-1]];
+   touch.samples.push({y:p.clientY,time:now});
+   while(touch.samples.length>2&&now-touch.samples[1].time>100)touch.samples.shift();
+   const duration=Number(animation.effect!.getTiming().duration);
+   const time=Number(animation.currentTime||0)+delta/28*1000;
+   animation.currentTime=duration+((time%duration)+duration)%duration;
    touch.lastY=p.clientY;
   }
   function click(event:Event){if(Date.now()<suppressClickUntil){event.preventDefault();event.stopPropagation();}}
