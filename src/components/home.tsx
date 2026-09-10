@@ -11,6 +11,7 @@ function Column({items,staggered=false}:{items:WorkView[];staggered?:boolean}) {
   if(!element)return;
   const region=element.closest('.waterfall')!;
   let animation:Animation|undefined,frame=0,last=0,rate=0,impulse=0;
+  let touch:{x:number;y:number;lastY:number}|undefined,dragging=false,suppressClickUntil=0;
   function measure(){
    const progress=animation?Number(animation.currentTime||0)/Number(animation.effect?.getTiming().duration||1)%1:0;
    animation?.cancel();
@@ -25,9 +26,9 @@ function Column({items,staggered=false}:{items:WorkView[];staggered?:boolean}) {
   }
   function tick(now:number){
    const dt=Math.min((now-(last||now))/1000,.05);last=now;
-   const stopped=document.hidden;
+   const stopped=document.hidden||dragging;
    impulse*=Math.exp(-dt/.8);
-   rate+=((stopped?0:1+impulse)-rate)*(1-Math.exp(-dt/.18));
+   rate=dragging?0:rate+((stopped?0:1+impulse)-rate)*(1-Math.exp(-dt/.18));
    if(animation){
     const duration=Number(animation.effect!.getTiming().duration);
     const time=Number(animation.currentTime||0);
@@ -43,11 +44,38 @@ function Column({items,staggered=false}:{items:WorkView[];staggered?:boolean}) {
    const pixels=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?region.clientHeight:1);
    impulse=Math.max(-12,Math.min(12,impulse+pixels/75));
   }
+  function release(){if(dragging)suppressClickUntil=Date.now()+500;touch=undefined;dragging=false;}
+  function touchStart(event:Event){
+   const e=event as TouchEvent;
+   release();suppressClickUntil=0;
+   if(e.touches.length===1){const p=e.touches[0];touch={x:p.clientX,y:p.clientY,lastY:p.clientY};}
+  }
+  function touchMove(event:Event){
+   const e=event as TouchEvent;
+   if(e.touches.length!==1){release();return;}
+   if(!touch||!animation)return;
+   const p=e.touches[0],dx=p.clientX-touch.x,dy=p.clientY-touch.y;
+   if(!dragging){
+    if(Math.max(Math.abs(dx),Math.abs(dy))<6)return;
+    if(Math.abs(dx)>Math.abs(dy)){release();return;}
+   }
+   if(!e.cancelable){release();return;}
+   e.preventDefault();dragging=true;impulse=0;rate=0;suppressClickUntil=Date.now()+500;
+   animation.playbackRate=0;
+   animation.currentTime=Number(animation.currentTime||0)+(p.clientY-touch.lastY)/28*1000;
+   touch.lastY=p.clientY;
+  }
+  function click(event:Event){if(Date.now()<suppressClickUntil){event.preventDefault();event.stopPropagation();}}
   region.addEventListener('wheel',wheel,{passive:false});
+  region.addEventListener('touchstart',touchStart,{passive:true});
+  region.addEventListener('touchmove',touchMove,{passive:false});
+  region.addEventListener('touchend',release);
+  region.addEventListener('touchcancel',release);
+  region.addEventListener('click',click,true);
   const resize=new ResizeObserver(measure);resize.observe(element.firstElementChild!);
   measure();
   frame=requestAnimationFrame(tick);
-  return()=>{region.removeEventListener('wheel',wheel);resize.disconnect();cancelAnimationFrame(frame);animation?.cancel();};
+  return()=>{region.removeEventListener('wheel',wheel);region.removeEventListener('touchstart',touchStart);region.removeEventListener('touchmove',touchMove);region.removeEventListener('touchend',release);region.removeEventListener('touchcancel',release);region.removeEventListener('click',click,true);resize.disconnect();cancelAnimationFrame(frame);animation?.cancel();};
  },[items.length,staggered]);
  const repeated=items.length?Array.from({length:Math.ceil(6/items.length)*items.length},(_,i)=>items[i%items.length]):[];
  // All copies need the same intrinsic image heights before a loop can join cleanly.
